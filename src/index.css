@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss';
 
 @theme {
 	--color-reddish-pink: #32a852;
-	--color-light-tomato: #cc0000;
+	--color-light-tomato: #F60000;
 	--color-light-pink: #f5c1dad9;
 	--color-dark-navy: #00011b;
 	--color-light-gray: #e1e1f2;
@@ -12,4 +14,16 @@
 	--color-starGold: #f8be00;
 	--color-lighterBlue: #5da3ff;
 	--color-pureBlue: #0455bf;
+
+	--font-roboto: 'Roboto';
+}
+
+html,
+body,
+#root,
+.app {
+	height: 100%;
+	width: 100%;
+	font-family: 'roboto';
+
 }
