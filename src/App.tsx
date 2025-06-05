@@ -4,6 +4,9 @@ import AboutPage from './pages/AboutPage';
 import BasicRequirement from './pages/BasicRequirement';
 import SATExams from './pages/SATExams';
 import TOELFExams from './pages/TOELFExams';
+import IELTSExams from './pages/IELTSExams';
+import Canada from './pages/Canada';
+import UnitedKingdom from './pages/UnitedKingdom';
 
 function App() {
 	return (
@@ -29,6 +32,18 @@ function App() {
 				<Route
 					path='toefl-exams'
 					element={<TOELFExams />}
+				/>
+				<Route
+					path='ielts-exams'
+					element={<IELTSExams />}
+				/>
+				<Route
+					path='canada'
+					element={<Canada />}
+				/>
+				<Route
+					path='united-kingdom'
+					element={<UnitedKingdom />}
 				/>
 			</Routes>
 		</BrowserRouter>
