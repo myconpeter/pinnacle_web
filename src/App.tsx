@@ -7,6 +7,8 @@ import TOELFExams from './pages/TOELFExams';
 import IELTSExams from './pages/IELTSExams';
 import Canada from './pages/Canada';
 import UnitedKingdom from './pages/UnitedKingdom';
+import USA from './pages/USA';
+import NewZealand from './pages/NewZealand';
 
 function App() {
 	return (
@@ -44,6 +46,14 @@ function App() {
 				<Route
 					path='united-kingdom'
 					element={<UnitedKingdom />}
+				/>
+				<Route
+					path='usa'
+					element={<USA />}
+				/>
+				<Route
+					path='new-zealand'
+					element={<NewZealand />}
 				/>
 			</Routes>
 		</BrowserRouter>

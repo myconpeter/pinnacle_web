@@ -26,7 +26,7 @@ const UnitedKingdom = () => {
 					support with admissions, scholarships, IELTS prep, and visa processing.
 				</p>
 				<p className='text-lg/loose mt-5 md:text-2xl/loose '>
-					The United Kingdom is more than a destination—it’s a gateway to academic
+					The United Kingdom is more than a destination—it{"'"}s a gateway to academic
 					prestige, cultural richness, and global opportunity. With centuries of
 					educational excellence and a forward-thinking approach to innovation, the UK
 					offers a transformative experience for international students.
@@ -157,7 +157,7 @@ const UnitedKingdom = () => {
 
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
 				<p className='text-xl md:text-2xl text-pureBlue font-semibold'>
-					Begin Your U.S Education Journey with Pinnacle Education and Training Limited.
+					Begin Your U.K Education Journey with Pinnacle Education and Training Limited.
 					Uyo
 				</p>
 				<p className='text-lg/loose mt-5 md:text-xl/loose '>
