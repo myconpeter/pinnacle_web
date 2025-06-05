@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
 import AboutPage from './pages/AboutPage';
 import BasicRequirement from './pages/BasicRequirement';
+import SATExams from './pages/SATExams';
+import TOELFExams from './pages/TOELFExams';
 
 function App() {
 	return (
@@ -17,8 +19,16 @@ function App() {
 					element={<AboutPage />}
 				/>
 				<Route
-					path='basic'
+					path='basic-requirement'
 					element={<BasicRequirement />}
+				/>
+				<Route
+					path='sat-exams'
+					element={<SATExams />}
+				/>
+				<Route
+					path='toefl-exams'
+					element={<TOELFExams />}
 				/>
 			</Routes>
 		</BrowserRouter>

@@ -50,7 +50,7 @@ const BasicRequirement = () => {
 				<img
 					src={HandonComputer}
 					alt='Demo'
-					className='rounded-3xl md:ml-5 h-96 w-full'
+					className='rounded-3xl md:ml-5 md:h-96 md:w-full'
 				/>
 			</div>
 
