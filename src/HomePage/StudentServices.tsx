@@ -43,14 +43,14 @@ const StudentServices = () => {
   return (
     	
 
-			<div  >
+			<div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center'>
 				<p className=' text-2xl font-bold md:text-7xl'>Our Services For Students</p>
 
                 {allServices.map(({title, description, image})=>(
                     <div className='mt-10 md:mt-28 flex flex-col  md:px-36'>
 					<div className='flex flex-col items-center justify-center shadow-2xl shadow-gray-700 rounded-3xl md:rounded-4xl p-2 md:p-20'>
 						<p className='font-bold text-xl md:text-6xl text-center'>{title}</p>
-						<p className='mt-5 md:mt-10 md:text-3xl text-center'>
+						<p className='mt-5 md:mt-10 md:text-3xl text'>
 							{' '}
 							{description}
 						</p>

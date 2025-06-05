@@ -4,7 +4,7 @@
 
 @theme {
 	--color-reddish-pink: #32a852;
-	--color-light-tomato: #F60000;
+	--color-light-tomato: #f60000;
 	--color-light-pink: #f5c1dad9;
 	--color-dark-navy: #00011b;
 	--color-light-gray: #e1e1f2;
@@ -14,6 +14,7 @@
 	--color-starGold: #f8be00;
 	--color-lighterBlue: #5da3ff;
 	--color-pureBlue: #0455bf;
+	--color-lighter-blue: #edf5ff;
 
 	--font-roboto: 'Roboto';
 }
@@ -24,6 +25,5 @@ body,
 .app {
 	height: 100%;
 	width: 100%;
-	font-family: 'roboto';
-
+	font-family: 'Roboto';
 }
