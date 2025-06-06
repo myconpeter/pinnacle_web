@@ -53,7 +53,7 @@ const AboutServices = () => {
 					<div
 						key={index}
 						className='flex  mt-10'>
-						<Icon className='text-7xl p-3 bg-gray-200 rounded-full shadow-2xl shadow-gray-500' />
+						<Icon className='text-7xl p-3 bg-gray-200 rounded-full shadow-xl shadow-gray-200' />
 						<div className='ml-4'>
 							<p className='text-2xl font-bold'>{title}</p>
 							<p className='text-sm mt-1'>{desc}</p>

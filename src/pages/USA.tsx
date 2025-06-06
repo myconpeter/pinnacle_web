@@ -3,7 +3,7 @@ import UsFlag from '../assets/USflag.png';
 import Usdeco from '../assets/USdeco.png';
 import Uswoman from '../assets/USwoman.png';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import Person from '../assets/UsaFooter.jpg';
 
 const USA = () => {
 	return (

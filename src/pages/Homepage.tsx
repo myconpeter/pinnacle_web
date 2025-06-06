@@ -12,7 +12,7 @@ import StudentServices from '../HomePage/StudentServices';
 import Testimonies from '../HomePage/Testimonies';
 import WhoWeAre from '../HomePage/WhoWeAre';
 import Why from '../HomePage/Why';
-import Person from '../assets/person.png';
+import HomeFooter from '../assets/HomeFooter.jpg';
 
 const Homepage = () => {
 	return (
@@ -30,7 +30,7 @@ const Homepage = () => {
 			<ContactUs />
 			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
 				<img
-					src={Person}
+					src={HomeFooter}
 					alt='Demo'
 					className=' md:ml-5 h-36 md:h-60 w-screen'
 				/>

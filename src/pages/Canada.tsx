@@ -4,7 +4,7 @@ import CanadaGrowth from '../assets/CanadaGrowth.png';
 import CanadaBoy from '../assets/CanadaBoy.png';
 import CanadaApproved from '../assets/CanadaApproved.png';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import Person from '../assets/CanadaFooter.jpg';
 
 const Canada = () => {
 	return (

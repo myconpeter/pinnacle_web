@@ -3,7 +3,7 @@ import UkFlag from '../assets/Ukflag.png';
 import UkWoman from '../assets/UkWoman.png';
 import UkLove from '../assets/UkLove.png';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import Person from '../assets/UKfooter.jpg';
 
 const UnitedKingdom = () => {
 	return (

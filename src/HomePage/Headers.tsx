@@ -1,5 +1,5 @@
-import Demo from '../assets/Demo.png';
-import DemoTwo from '../assets/DemoTwo.png';
+import Demo from '../assets/Demo.jpg';
+import DemoTwo from '../assets/DemoTwo.jpg';
 
 // type Props = {}
 

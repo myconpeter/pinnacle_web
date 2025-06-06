@@ -6,7 +6,7 @@ const HowWeWork = () => {
 		<div className='relative w-full px-3 md:px-6 mt-20 md:mt-32 items-center'>
 			<div className='px-5 md:px-32'>
 				<div className='flex items-center justify-center p-5 shadow-xl shadow-gray-300 '>
-					<p className='text-3xl md:text-6xl  text-light-tomato font-bold'>HOW WE WORK</p>
+					<p className='text-3xl md:text-5xl  text-light-tomato font-bold'>HOW WE WORK</p>
 				</div>
 			</div>
 

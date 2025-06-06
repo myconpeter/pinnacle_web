@@ -6,7 +6,7 @@ import { IoMailOpen } from 'react-icons/io5';
 import { IoCallSharp } from 'react-icons/io5';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import BasicFooter from '../assets/BasicFooter.jpg';
 const allReasons = [
 	{
 		text: 'Academic Transcripts and Results from high school or university attended',
@@ -160,7 +160,7 @@ const BasicRequirement = () => {
 			</div>
 			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
 				<img
-					src={Person}
+					src={BasicFooter}
 					alt='Demo'
 					className=' md:ml-5 h-36 md:h-60 w-screen'
 				/>

@@ -4,7 +4,7 @@ import ZealandBoy from '../assets/ZealandBoy.png';
 import ZealandGirl from '../assets/ZealandGirl.png';
 import ZealandStudent from '../assets/ZealandStudent.png';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import Person from '../assets/ZealandFooter.jpg';
 const NewZealand = () => {
 	return (
 		<div>

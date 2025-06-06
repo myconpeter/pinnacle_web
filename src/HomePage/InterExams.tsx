@@ -1,27 +1,27 @@
 import { Link } from 'react-router';
 import Sat from '../assets/SAT.png';
-import Itles from "../assets/IELTS.png"
-import Toef from "../assets/TOEF.png"
+import Itles from '../assets/IELTS.png';
+import Toef from '../assets/TOEF.png';
 
 const InterExams = () => {
 	const allInt = [
 		{
 			title: 'SCHOLASTIC APTITUDE TEST (SAT)',
 			desc: 'The Scholastic Aptitude Test (SAT) is a college entrance exam that measures a student readiness for higher education. The exam has been developed to evaluate the written, verbal and mathematical',
-            link: "/",
-            image:Sat
+			link: '/sat-exams',
+			image: Sat,
 		},
 		{
 			title: 'TEST OF ENGLISH AS A FOREIGN LANGUAGE (TOEFL)',
 			desc: 'The Test of English as a Foreign Language (TOEFL) is a standardized test that measures the English language proficiency of non-native speakers. The TOEFL is conducted by',
-            link: "/",
-            image:Toef
+			link: '/toefl-exams',
+			image: Toef,
 		},
 		{
 			title: 'INTERNATIONAL ENGLISH LANGUAGE TESTING SYSTEM (IELTS)',
 			desc: 'The International English Language Testing System (IELTS) is a widely accepted English language proficiency test for students, professionals, and immigrants.',
-            link: "/",
-            image:Itles
+			link: '/ielts-exams',
+			image: Itles,
 		},
 	];
 	return (
@@ -32,34 +32,29 @@ const InterExams = () => {
 			</p>
 
 			<div className='mt-10 flex gap-4 md:gap-10 overflow-x-auto'>
-                {allInt.map(({title, desc, link, image})=>(
-                    <div className='flex-shrink-0 flex flex-col items-center justify-center w-60 h-80 md:w-[500px] md:h-[470px] bg-white border border-light-tomato rounded-4xl '>
-					<p className='text-center  font-bold md:font-light md:text-3xl md:mb-10 mt-2'>
-						{title}
-					</p>
+				{allInt.map(({ title, desc, link, image }) => (
+					<div className='flex-shrink-0 flex flex-col items-center justify-center w-60 h-80 md:w-[500px] md:h-[470px] bg-white border border-light-tomato rounded-4xl '>
+						<p className='text-center  font-bold md:font-light md:text-3xl md:mb-10 mt-2'>
+							{title}
+						</p>
 
-					<p className='text-xs/loose mx-2 mt-4 text-center md:text-xl/loose'>
-						{desc}
-					</p>
+						<p className='text-xs/loose mx-2 mt-4 text-center md:text-xl/loose'>
+							{desc}
+						</p>
 
-					<Link
-						to={link}
-						className='text-light-tomato italic mt-4'>
-						{' '}
-						See more ..
-					</Link>
-					<img
-						src={image}
-						alt='sat'
-                        className='mt-4'
-					/>
-				</div>
-
-                ))}
-				
-				
-			
-				
+						<Link
+							to={link}
+							className='text-light-tomato italic mt-4'>
+							{' '}
+							See more ..
+						</Link>
+						<img
+							src={image}
+							alt='sat'
+							className='mt-4'
+						/>
+					</div>
+				))}
 			</div>
 		</div>
 	);

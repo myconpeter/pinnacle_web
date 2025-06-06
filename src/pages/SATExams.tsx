@@ -4,9 +4,9 @@ import SatBoy from '../assets/SatBoy.png';
 import SatGirl from '../assets/SatGirl.png';
 import SatGrade from '../assets/SatGrade.png';
 import { GoDotFill } from 'react-icons/go';
-import WorldMap from '../assets/WorldMap.png';
+import WorldMap from '../assets/WorldMap.jpg';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import Satfooter from '../assets/SatFooter.jpg';
 
 const SATExams = () => {
 	return (
@@ -210,7 +210,7 @@ const SATExams = () => {
 
 			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
 				<img
-					src={Person}
+					src={Satfooter}
 					alt='Demo'
 					className=' md:ml-5 h-36 md:h-60 w-screen'
 				/>

@@ -3,9 +3,9 @@ import IeltsBig from '../assets/IELTSbig.png';
 import IeltsPencil from '../assets/IeltsPencil.png';
 import IeltsGrad from '../assets/IeltsGrad.png';
 import { GoDotFill } from 'react-icons/go';
-import WorldMap from '../assets/WorldMap.png';
+import WorldMap from '../assets/WorldMap.jpg';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import IeltsFooter from '../assets/IeltsFooter.jpg';
 
 const IELTSExams = () => {
 	return (
@@ -326,8 +326,8 @@ const IELTSExams = () => {
 
 			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
 				<img
-					src={Person}
-					alt='Demo'
+					src={IeltsFooter}
+					alt='IeltsFooter'
 					className=' md:ml-5 h-36 md:h-60 w-screen'
 				/>
 			</div>

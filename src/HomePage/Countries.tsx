@@ -7,42 +7,42 @@ const Countries = () => {
 		{
 			country: 'United States Of America',
 			code: 'US',
-			link: '/',
+			link: '/usa',
 		},
 		{
 			country: 'United Kingdom',
 			code: 'GB',
-			link: '/',
+			link: '/united-kingdom',
 		},
 		{
 			country: 'Canada',
 			code: 'CA',
-			link: '/',
+			link: '/canada',
 		},
 		{
 			country: 'New Zealand',
 			code: 'NZ',
-			link: '/',
+			link: '/new-zealand',
 		},
 		{
 			country: 'Ireland',
 			code: 'IE',
-			link: '/',
+			link: '/ireland',
 		},
 		{
 			country: 'Australia',
 			code: 'AU',
-			link: '/',
+			link: '/australia',
 		},
 		{
 			country: 'Germany',
 			code: 'DE',
-			link: '/',
+			link: '/germany',
 		},
 		{
 			country: 'Poland',
 			code: 'PL',
-			link: '/',
+			link: '/poland',
 		},
 		{
 			country: 'France',
@@ -67,12 +67,12 @@ const Countries = () => {
 	];
 	return (
 		<div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center bg-light-pink rounded-3xl pb-20'>
-			<p className='pt-10 text-2xl md:text-7xl font-bold'>Countries</p>
-			<p className='mt-5 md:text-3xl'>
+			<p className='pt-10 text-2xl md:text-6xl font-bold'>Countries</p>
+			<p className='mt-5 md:text-2xl'>
 				Check out the basic requirements to study in the following countries
 				<Link
-					to='/'
-					className='mt-10  md:text-3xl/loose font-light space-y-20 italic text-light-tomato'>
+					to='/basic-requirement'
+					className='mt-10  md:text-2xl/loose font-light space-y-20 italic text-light-tomato'>
 					{' '}
 					here ..
 				</Link>

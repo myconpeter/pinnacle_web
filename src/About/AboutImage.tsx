@@ -1,4 +1,4 @@
-import DemoTwo from '../assets/DemoTwo.png';
+import DemoTwo from '../assets/DemoTwo.jpg';
 const AboutImage = () => {
 	return (
 		<>

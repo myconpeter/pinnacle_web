@@ -18,7 +18,7 @@ const Footer = () => {
 				</div>
 				<div className='mt-4 flex flex-col gap-3'>
 					<Link
-						to='/'
+						to='/about'
 						className='text-[px] sm:text-xl md:text-xl lg:text-lg'>
 						About Us
 					</Link>

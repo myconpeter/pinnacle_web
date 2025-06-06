@@ -3,7 +3,7 @@ import IrelandGirl from '../assets/IrelandGirl.png';
 import IrelandPlane from '../assets/IrelandPlane.png';
 import IrelandPeople from '../assets/IrelandPeople.png';
 import Footer from '../components/Footer';
-import Person from '../assets/person.png';
+import Person from '../assets/IreLandFooter.jpg';
 import NavBar from '../components/NavBar';
 const Ireland = () => {
 	return (
@@ -28,9 +28,7 @@ const Ireland = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				{/* <p className='text-lg md:text-2xl text-pureBlue font-semibold'>
-					Why Study in New Zealand? Top Reasons for Nigeria Students
-				</p> */}
+				
 				<p className='text-lg md:text-2xl mt-5 text-pureGold font-semibold mb-2'>
 					Study in Ireland from Nigeria - Your Gateway to a World-Class Education and
 					Global Career

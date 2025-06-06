@@ -11,6 +11,8 @@ import USA from './pages/USA';
 import NewZealand from './pages/NewZealand';
 import Ireland from './pages/Ireland';
 import Australia from './pages/Australia';
+import Germany from './pages/Germany';
+import Poland from './pages/Poland';
 
 function App() {
 	return (
@@ -62,8 +64,16 @@ function App() {
 					element={<Ireland />}
 				/>
 				<Route
-					path='austrailia'
+					path='australia'
 					element={<Australia />}
+				/>
+				<Route
+					path='germany'
+					element={<Germany />}
+				/>
+				<Route
+					path='poland'
+					element={<Poland />}
 				/>
 			</Routes>
 		</BrowserRouter>
