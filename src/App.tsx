@@ -10,6 +10,7 @@ import UnitedKingdom from './pages/UnitedKingdom';
 import USA from './pages/USA';
 import NewZealand from './pages/NewZealand';
 import Ireland from './pages/Ireland';
+import Australia from './pages/Australia';
 
 function App() {
 	return (
@@ -59,6 +60,10 @@ function App() {
 				<Route
 					path='ireland'
 					element={<Ireland />}
+				/>
+				<Route
+					path='austrailia'
+					element={<Australia />}
 				/>
 			</Routes>
 		</BrowserRouter>

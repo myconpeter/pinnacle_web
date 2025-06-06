@@ -110,11 +110,6 @@ const NewZealand = () => {
 				<p className='text-lg md:text-2xl text-pureBlue font-semibold'>
 					4. Clear Pathway to Permanent Residency
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
-					Students can work up to 20 hours per week during term time and full-time during
-					holidays. After graduation, you can apply for a Post-Study Work Visa (1 - 3
-					years), giving you time to gain valuable global work experience.
-				</p>
 			</div>
 
 			<div className='relative w-full px-3 md:px-20  md:mt-24 items-center'>
