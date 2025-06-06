@@ -55,7 +55,7 @@ const StudentServices = () => {
 				<div className='mt-10 md:mt-28 flex flex-col  md:px-36'>
 					<div className='flex flex-col items-center justify-center shadow-lg shadow-gray-400 rounded-3xl md:rounded-4xl p-2 md:p-20'>
 						<p className='font-bold text-xl md:text-4xl text-center'>{title}</p>
-						<p className='mt-5 md:mt-10 md:text-2xl text'> {description}</p>
+						<p className='mt-5 md:mt-10 md:text-2xl text-center'> {description}</p>
 						<div className='shadow-xl shadow-gray-300 rounded-full px-2 py-1 md:py-5 md:px-5 mt-5 md:mt-10'>
 							<Icon className='w-10 md:w-20 text-4xl' />
 						</div>
