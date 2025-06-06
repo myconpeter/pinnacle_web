@@ -25,7 +25,7 @@ const InterExams = () => {
 		},
 	];
 	return (
-		<div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center mb-10'>
+		<div id='exams' className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center mb-10'>
 			<p className='text-center text-2xl font-bold md:text-6xl'>INTERNATIONAL EXAMS</p>
 			<p className='mt-5 text-xs text-center'>
 				Be a part of our students who excel in the following international exams

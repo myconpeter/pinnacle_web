@@ -13,10 +13,13 @@ import Ireland from './pages/Ireland';
 import Australia from './pages/Australia';
 import Germany from './pages/Germany';
 import Poland from './pages/Poland';
+import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
 	return (
 		<BrowserRouter>
+			<ScrollToTop />
 			<Routes>
 				<Route
 					index

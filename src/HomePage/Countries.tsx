@@ -66,7 +66,7 @@ const Countries = () => {
 		},
 	];
 	return (
-		<div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center bg-light-pink rounded-3xl pb-20'>
+		<div id='country' className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center bg-light-pink rounded-3xl pb-20'>
 			<p className='pt-10 text-2xl md:text-6xl font-bold'>Countries</p>
 			<p className='mt-5 md:text-2xl'>
 				Check out the basic requirements to study in the following countries

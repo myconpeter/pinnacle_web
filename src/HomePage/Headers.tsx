@@ -6,7 +6,7 @@ import DemoTwo from '../assets/DemoTwo.jpg';
 const Headers = () => {
   return (
     <>
-        <div className={` relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center`}>
+        <div id='home' className={` relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center`}>
 				<img
 					src={Demo}
 					alt='Demo'
