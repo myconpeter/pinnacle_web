@@ -1,4 +1,4 @@
-import Person from '../assets/person.png';
+import Person from '../assets/Person.png';
 
 const Picture = () => {
 	return (
