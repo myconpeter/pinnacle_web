@@ -11,12 +11,8 @@ const TOELFExams = () => {
 		<div>
 			<NavBar />
 			{/* page heading */}
-			<div className='mt-16 md:mt-24'>
-				<p className='text-darkBlue text-xl md:text-3xl text-center font-semibold'>
-					THE TEST OF ENGLISH AS A FOREIGN LANGUSE (TOEFL)
-				</p>
-			</div>
-			<div className='relative w-full px-3 md:px-20  md:mt-24 items-center'>
+
+			<div className='relative w-full px-3 mt-10 md:px-20  md:mt-10 items-center'>
 				<div className='md:flex items-center justify-between'>
 					<div className='md:w-3/6'>
 						<img
@@ -25,19 +21,24 @@ const TOELFExams = () => {
 						/>
 					</div>
 					<div className='md:w-3/6'>
-						<p className='md:text-2xl/loose text-lg/loose'>
+						<div className='md:mt-16'>
+							<p className='text-darkBlue text-xl md:text-3xl text-center font-semibold'>
+								THE TEST OF ENGLISH AS A FOREIGN LANGUSE (TOEFL)
+							</p>
+						</div>
+						<p className='md:text-2xl/loose mt-5 text-lg/loose font-light'>
 							The Test of English as a Foreign Language (TOEFL) is a standardized test
 							that measures the English language proficiency of non-native speakers.{' '}
 						</p>
 					</div>
 				</div>
-				<p className='text-lg/loose md:text-2xl/loose '>
+				<p className='text-lg/loose md:text-2xl/loose font-light'>
 					The TOEFL is conducted by the Educational Testing Service (ETS). The Test of
 					English as a Foreign Language (TOEFL) is a globally recognized English
 					proficiency test, essential for non-native speakers who wish to study, work, or
 					migrate to English-speaking countries.
 				</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>
 					{' '}
 					Our comprehensive TOEFL preparation courses are designed to help students
 					improve their reading, listening, speaking, and writing skills.
@@ -48,10 +49,10 @@ const TOELFExams = () => {
 				<p className='text-2xl md:text-4xl text-darkBlue font-semibold'>
 					TOEFL Test Formats
 				</p>
-				<p className='text-lg md:text-2xl text-darkBlue  mt-5'>
-					TOEFL iBT (Internet-based): Most widely accepted
+				<p className='text-lg md:text-2xl text-darkBlue  mt-5 font-light'>
+					TOEFL IBT (Internet-based): Most widely accepted
 				</p>
-				<p className='text-lg md:text-2xl text-darkBlue mt-5'>
+				<p className='text-lg md:text-2xl text-darkBlue mt-5 font-light'>
 					TOEFL PBT (Paper-based): Not available in Nigeria
 				</p>
 			</div>
@@ -60,7 +61,7 @@ const TOELFExams = () => {
 				<img
 					src={ToplfEdu}
 					alt='Demo'
-					className='rounded-3xl md:ml-5 '
+					className='md:rounded-3xl md:ml-5 w-60 h-60 '
 				/>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
@@ -69,22 +70,21 @@ const TOELFExams = () => {
 						Who Takes the TOEFL
 					</p>
 
-					<div className='flex items-center gap-4 mt-10'>
+					<div className='flex items-center gap-4 mt-5'>
 						<GoDotFill className='text-darkBlue' />
-						<p className='text-lg/loose md:text-2xl/loose '>
-							Students applying to foreign universities{' '}
+						<p className='text-lg/loose md:text-2xl/loose font-light '>
+							Students applying to foreign universities
 						</p>
 					</div>
-					<div className='flex items-center gap-4'>
+					<div className='flex items-center gap-4 -mt-5'>
 						<GoDotFill className='text-darkBlue' />
-						<p className='text-lg/loose md:text-2xl/loose  '>
-							{' '}
+						<p className='text-lg  md:text-2xl/loose font-light mt-4'>
 							Professionals seeking job opportunities abroad
 						</p>
 					</div>
-					<div className='flex items-center gap-4'>
+					<div className='flex items-center gap-4 -mt-1'>
 						<GoDotFill className='text-darkBlue' />
-						<p className='text-lg/loose md:text-2xl/loose '>
+						<p className='text-lg/loose md:text-2xl/loose font-light'>
 							Migrants applying for residency or work permits
 						</p>
 					</div>
@@ -118,15 +118,15 @@ const TOELFExams = () => {
 				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Port Harcourt</p>
 			</div>
 
-            <div className={` relative w-full px-2 md:px-20  mt-16 md:mt-24 items-center `}>
+			<div className={` relative w-full  md:px-20  mt-16 md:mt-24 items-center `}>
 				<img
 					src={WorldMap}
 					alt='Demo'
-					className='rounded-3xl md:ml-5 md:h-[500px] md:w-full'
+					className='md:rounded-3xl md:ml-5 md:h-[500px] md:w-full'
 				/>
 			</div>
 
-			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:mt-1  items-center `}>
 				<img
 					src={TofelFooter}
 					alt='TofelFooter'
