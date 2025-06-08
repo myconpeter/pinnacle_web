@@ -98,6 +98,10 @@ function App() {
 					path='cyprus'
 					element={<Cry />}
 				/>
+				<Route
+					path='terms'
+					element={<Cry />}
+				/>
 			</Routes>
 		</BrowserRouter>
 	);
