@@ -4,28 +4,28 @@ const Testimonies = () => {
 	return (
 		<div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center mb-10'>
 			<p className='text-center text-2xl font-bold md:text-6xl'>TESTIMONIES</p>
-			<p className='mt-5 text-xs text-center'>
+			<p className='mt-5 text-xs md:text-lg text-center'>
 				Some testimonies of students who have experienced our services
 			</p>
 
 			{/* the first testimony here */}
 
-			<div className='mt-8 flex gap-3 overflow-x-scroll'>
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
+			<div className='mt-8 flex gap-10 overflow-x-scroll'>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
 							U
 						</p>
 						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
 						</div>
 					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
 						PETL is the best for scholarship applications, and suitable for your
 						international exams
 					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
 						<FaStar className='text-starGold' />
 						<FaStar className='text-starGold' />
 						<FaStar className='text-starGold' />
@@ -33,92 +33,116 @@ const Testimonies = () => {
 						<FaStar className='text-starGold' />
 					</div>
 				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				
 
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
-							U
-						</p>
-						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
-						</div>
-					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
-						PETL is the best for scholarship applications, and suitable for your
-						international exams
-					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-					</div>
-				</div>
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
-							U
-						</p>
-						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
-						</div>
-					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
-						PETL is the best for scholarship applications, and suitable for your
-						international exams
-					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-					</div>
-				</div>
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
-							U
-						</p>
-						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
-						</div>
-					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
-						PETL is the best for scholarship applications, and suitable for your
-						international exams
-					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-					</div>
-				</div>
+				
 			</div>
 
 			{/* secound testimony here */}
-			<div className='mt-8 flex gap-3 overflow-x-scroll'>
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
+			<div className='mt-8 flex gap-10 overflow-x-scroll'>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
 							U
 						</p>
 						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
 						</div>
 					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
 						PETL is the best for scholarship applications, and suitable for your
 						international exams
 					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
 						<FaStar className='text-starGold' />
 						<FaStar className='text-starGold' />
 						<FaStar className='text-starGold' />
@@ -126,74 +150,99 @@ const Testimonies = () => {
 						<FaStar className='text-starGold' />
 					</div>
 				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-60 md:h-40 bg-gray-200  rounded-2xl shadow-lg shadow-gray-300 '>
+					<div className='flex items-start gap-3 mx-3 mt-4'>
+						<p className='px-3 py-1 bg-white rounded-full font-medium text-2xl md:text-xl'>
+							U
+						</p>
+						<div>
+							<p className='font-semibold md:text2xl'>Udofa Michael</p>
+							<p className='md:text-xs font-light text-[13px] -mt-1'>Student</p>
+						</div>
+					</div>
+					<p className='text-xs mt-3 mx-4 md:text-sm md:mt-2 font-light'>
+						PETL is the best for scholarship applications, and suitable for your
+						international exams
+					</p>
+					<div className='flex mx-4 mt-3 md:mt-4 md:gap-2 items-center justify-center'>
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+						<FaStar className='text-starGold' />
+					</div>
+				</div>
+				
 
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
-							U
-						</p>
-						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
-						</div>
-					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
-						PETL is the best for scholarship applications, and suitable for your
-						international exams
-					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-					</div>
-				</div>
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
-							U
-						</p>
-						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
-						</div>
-					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
-						PETL is the best for scholarship applications, and suitable for your
-						international exams
-					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-					</div>
-				</div>
-				<div className='flex-shrink-0  flex flex-col  w-60 h-40 md:w-80 md:h-56 bg-gray-200  rounded-4xl shadow-lg shadow-gray-300 '>
-					<div className='flex items-start gap-6 mx-3 mt-4'>
-						<p className='px-2 py-1 bg-white rounded-full font-bold text-2xl md:text-3xl'>
-							U
-						</p>
-						<div>
-							<p className='font-semibold md:text-2xl'>Udofa Michael</p>
-							<p className='md:text-sm'>Student</p>
-						</div>
-					</div>
-					<p className='text-xs mt-3 mx-4 md:text-lg md:mt-2 '>
-						PETL is the best for scholarship applications, and suitable for your
-						international exams
-					</p>
-					<div className='flex mx-4 mt-3 md:mt-4 items-center justify-center'>
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-						<FaStar className='text-starGold' />
-					</div>
-				</div>
+				
 			</div>
+			
 		</div>
 	);
 };

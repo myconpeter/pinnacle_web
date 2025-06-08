@@ -2,11 +2,11 @@ import Person from '../assets/Person.png';
 
 const Picture = () => {
 	return (
-		<div className={` relative w-full px-3 md:px-24  mt-16 md:mt-24 items-center ` }>
+		<div className={` relative w-full  md:px-24  mt-16 md:mt-24 items-center ` }>
 			<img
 				src={Person}
 				alt='Demo'
-				className='rounded-3xl md:ml-5'
+				className=' md:ml-5'
 			/>
 		</div>
 	);

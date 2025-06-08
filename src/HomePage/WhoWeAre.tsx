@@ -8,10 +8,17 @@ const WhoWeAre = () => {
 				At Pinnacle Education and Training Limited, we specialize in preparing Nigerian
 				students for international academic success. We are an Educational Consultancy
 				Agency. With over 20 years of expertise, we have successfully trained, guided and
-				placed students for admission into foreign universities.
+				placed students for admission into foreign universities. With a team of experienced
+				professionals
+				<Link
+					to='/about'
+					className='mt-5 text-lg md:text-2xl/loose font-light space-y-20 italic text-light-tomato'>
+					{' '}
+					Learn more ..
+				</Link>
 			</p>
 
-			<p className='mt-1 text-lg md:text-2xl/loose font-light space-y-20'>
+			{/* <p className='mt-1 text-lg md:text-2xl/loose font-light space-y-20'>
 				{' '}
 				With a team of experienced professionals
 				<Link
@@ -20,7 +27,7 @@ const WhoWeAre = () => {
 					{' '}
 					Learn more ..
 				</Link>
-			</p>
+			</p> */}
 		</div>
 	);
 };

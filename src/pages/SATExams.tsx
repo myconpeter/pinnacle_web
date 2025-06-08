@@ -13,12 +13,8 @@ const SATExams = () => {
 		<div>
 			<NavBar />
 			{/* page heading */}
-			<div className='mt-16 md:mt-24'>
-				<p className='text-darkBlue text-xl md:text-3xl text-center font-semibold'>
-					SCHOLASTIC APTITUDE TEST (SAT)
-				</p>
-			</div>
-			<div className='relative w-full px-3 md:px-20  md:mt-24 items-center'>
+
+			<div className='relative w-full px-3 md:px-20  mt-10 md:mt-0 items-center'>
 				<div className='md:flex items-center justify-between'>
 					<div className='md:w-3/6'>
 						<img
@@ -27,7 +23,12 @@ const SATExams = () => {
 						/>
 					</div>
 					<div className='md:w-3/6'>
-						<p className='md:text-2xl/loose text-lg/loose'>
+						<div className=' md:mt-24'>
+							<p className='text-darkBlue text-xl  md:text-3xl text-center font-bold'>
+								SCHOLASTIC APTITUDE TEST (SAT)
+							</p>
+						</div>
+						<p className='md:text-2xl/loose mt-8  text-lg/loose'>
 							The Scholastic Aptitude Test (SAT) is a college entrance exam that
 							measures a student's readiness for higher education. Our SAT preparation
 							courses are tailored to help students improve their scores{' '}
@@ -59,11 +60,11 @@ const SATExams = () => {
 				</p>
 			</div>
 
-			<div className={` relative w-full px-2 md:px-20  mt-16 md:mt-24 items-center `}>
+			<div className={` relative w-full md:px-20  mt-16 md:mt-24 items-center `}>
 				<img
 					src={SatBoy}
 					alt='Demo'
-					className='rounded-3xl md:ml-5 md:h-[500px] md:w-full'
+					className='md:rounded-3xl md:ml-5 md:h-[500px] md:w-full'
 				/>
 			</div>
 
@@ -78,19 +79,19 @@ const SATExams = () => {
 				</p>
 			</div>
 
-			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center bg-lighter-blue'>
+			<div className='relative w-full px-3 md:px-20 mt-10 py-10  md:mt-24 items-center bg-lighter-blue'>
 				<p></p>
-				<div className='relative w-full px-3 md:px-20  md:mt-24 items-center pt-10'>
-					<div className='md:flex md:flex-row-reverse items-center justify-between'>
+				<div className='relative w-full  items-center'>
+					<div className='md:flex md:flex-row-reverse md:items-center md:justify-between'>
 						<div className='md:w-3/6'>
 							<img
 								src={SatGirl}
 								alt='satbig'
-								className='rounded-3xl'
+								className=''
 							/>
 						</div>
-						<div className='md:w-3/6 md:ml-5'>
-							<p className='md:text-2xl/loose text-xl text-center font-bold mt-10'>
+						<div className='md:mr-10'>
+							<p className='md:text-2xl/loose text-xl font-bold mt-10'>
 								SAT Exam Structure
 							</p>
 
@@ -107,14 +108,14 @@ const SATExams = () => {
 				</div>
 			</div>
 
-			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<div className='relative w-full px-3 md:px-20  md:mt-24 items-center pt-10'>
+			<div className='relative w-full px-3 md:px-20 mt-10  items-center'>
+				<div className='relative w-full px-3 md:px-20   items-center '>
 					<div className='md:flex items-center justify-between'>
 						<div className='md:w-3/6'>
 							<img
 								src={SatGrade}
 								alt='satbig'
-								className='rounded-3xl'
+								className='md:rounded-xl md:h-[500px] md:mt-10'
 							/>
 						</div>
 						<div className='md:w-3/6 md:ml-5'>
@@ -156,14 +157,14 @@ const SATExams = () => {
 								<GoDotFill />
 								<p className='text-lg/loose md:text-2xl/loose '>December 6, 2025</p>
 							</div>
+
+							<p className='text-red-600 '>
+								Registration deadlines typically fall about two weeks before the
+								test date.
+							</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div className='relative w-full px-3 md:px-20 items-center'>
-				<p className='text-red-600 text-center'>
-					Registration deadlines typically fall about two weeks before the test date.
-				</p>
 			</div>
 
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
@@ -200,19 +201,19 @@ const SATExams = () => {
 				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Benin</p>
 			</div>
 
-			<div className={` relative w-full px-2 md:px-20  mt-16 md:mt-24 items-center `}>
+			<div className={` relative w-full md:px-20  mt-16 md:mt-24 items-center md:pb-24  `}>
 				<img
 					src={WorldMap}
 					alt='Demo'
-					className='rounded-3xl md:ml-5 md:h-[500px] md:w-full'
+					className='md:rounded-xl md:ml-5 md:h-[500px] md:w-full'
 				/>
 			</div>
 
-			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-14  items-center `}>
 				<img
 					src={Satfooter}
 					alt='Demo'
-					className=' md:ml-5 h-36 md:h-60 w-screen'
+					className=' md:ml-5'
 				/>
 			</div>
 			<Footer />

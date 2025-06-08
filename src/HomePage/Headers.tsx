@@ -4,24 +4,26 @@ import DemoTwo from '../assets/DemoTwo.jpg';
 // type Props = {}
 
 const Headers = () => {
-  return (
-    <>
-        <div id='home' className={` relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center`}>
+	return (
+		<>
+			<div
+				id='home'
+				className={` relative w-full md:px-6 md:-mt-10 mt-12  items-center`}>
 				<img
 					src={Demo}
 					alt='Demo'
-					className='rounded-3xl'
+					className='md:rounded-3xl'
 				/>
 			</div>
-			<div className={` relative w-full px-3 md:px-6 mt-5 items-center`}>
+			<div className={` relative w-full md:px-6  md:mt-5 mt-2 items-center`}>
 				<img
 					src={DemoTwo}
 					alt='DemoTwo'
 					className=''
 				/>
 			</div>
-    </>
-  )
-}
+		</>
+	);
+};
 
-export default Headers
+export default Headers;

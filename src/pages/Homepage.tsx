@@ -28,11 +28,11 @@ const Homepage = () => {
 			<Testimonies />
 			<Picture />
 			<ContactUs />
-			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
+			<div className={` absolute z-20 top w-full  md:px-24  mt-8 md:-mt-20 items-center `}>
 				<img
 					src={HomeFooter}
 					alt='Demo'
-					className=' md:ml-5 h-36 md:h-60 w-screen'
+					className=' md:ml-5'
 				/>
 			</div>
 			<Footer />

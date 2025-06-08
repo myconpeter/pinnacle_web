@@ -23,7 +23,7 @@ const allReasons = [
 
 const AboutWay = () => {
     return (
-        <div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center bg-gray-200 rounded-3xl pb-10'>
+        <div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center bg-lighter-blue/40 md:rounded-3xl pb-10'>
             <p className='pt-10 text-xl md:text-5xl font-bold text-black'>
                WHY CHOOSE US?
             </p>

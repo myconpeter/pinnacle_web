@@ -23,8 +23,8 @@ const allReasons = [
 
 const Why = () => {
 	return (
-		<div className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center bg-lighter-blue rounded-3xl pb-10'>
-			<p className='pt-10 text-xl md:text-4xl font-bold text-darkBlue'>
+		<div className='relative w-full px-3 md:px-16 mt-16 md:mt-24 items-center bg-lighter-blue/40 md:rounded-3xl pb-10'>
+			<p className='pt-10 text-xl md:text-4xl font-medium text-darkBlue'>
 				Why Pinnacle Education And Training Limited
 			</p>
 			<div className='mt-5 md:mt-16'>
@@ -32,7 +32,7 @@ const Why = () => {
                 {allReasons.map(({text})=>(
                     <div className='flex items-center gap-2 mt-3 md:mt-12 md:gap-4'>
 					<FaCheckCircle className='text-darkBlue md:text-3xl' />
-					<p className='text-darkBlue text-sm md:text-2xl'>
+					<p className='text-darkBlue text-sm md:text-2xl font-light'>
 						{text}
 					</p>
 				</div>

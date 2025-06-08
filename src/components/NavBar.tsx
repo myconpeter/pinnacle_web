@@ -90,9 +90,9 @@ const NavBar = () => {
 	return (
 		<nav
 			className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full px-3 md:px-6 mb-10`}>
-			<div className={`${flexBetween} mx-auto w-full`}>
+			<div className=' flex items-center justify-center mx-auto w-full'>
 				<div
-					className={`flex items-center justify-between  w-full md:shadow-lg md:shadow-gray-400 rounded-4xl px-2 py-2`}>
+					className={`flex items-center  justify-between  w-full md:shadow-sm md:shadow-gray-300 rounded-4xl px-2 py-2`}>
 					<Link
 						to='/'
 						className='flex items-center justify-center gap-2 md:gap-5 md:ml-10'>
@@ -102,47 +102,47 @@ const NavBar = () => {
 							className='w-9 md:w-14'
 						/>
 
-						<p className='text-[12px] sm:text-xl md:text-xs lg:text-lg font-semibold'>
+						<p className='text-[12px] sm:text-xl md:text-xs lg:text-lg font-light'>
 							PINNACLE EDUCATION TRAINING LTD
 						</p>
 					</Link>
 
 					{isAboveMediumScreen ? (
-						<>
+						<div className='flex '>
 							<div className='flex items-center '>
 								<div className={`${flexBetween} gap-5 text-sm`}>
 									<div
 										onClick={handleHomeClick}
-										className='border-r border-light-tomato pr-1'>
-										<p className='text-xl hover:bg-light-tomato/15 p-2 rounded-2xl border-light-tomato'>
+										className=' border-light-tomato pr-1'>
+										<p className='text-xl hover:bg-light-tomato/15 p-2  border-light-tomato font-light'>
 											Home
 										</p>
 									</div>
 									<Link
 										to='/about'
-										className='border-r border-light-tomato pr-1'>
-										<p className='text-xl hover:bg-light-tomato/15 p-2 rounded-2xl border-light-tomato'>
+										className=' border-light-tomato pr-1'>
+										<p className='text-xl hover:bg-light-tomato/15 p-2 border-light-tomato font-light'>
 											About
 										</p>
 									</Link>
 									<div
 										onClick={handleExamsClick}
-										className='border-r border-light-tomato pr-1'>
-										<p className='text-xl hover:bg-light-tomato/15 p-2 rounded-2xl border-light-tomato'>
+										className=' border-light-tomato pr-1'>
+										<p className='text-xl hover:bg-light-tomato/15 p-2  border-light-tomato font-light'>
 											Exams
 										</p>
 									</div>
 									<div
 										onClick={handleCountryClick}
-										className='border-r border-light-tomato pr-1'>
-										<p className='text-xl hover:bg-light-tomato/15 p-2 rounded-2xl border-light-tomato'>
+										className=' border-light-tomato pr-1'>
+										<p className='text-xl hover:bg-light-tomato/15 p-2  border-light-tomato font-light'>
 											Countries
 										</p>
 									</div>
 									<div
 										onClick={handleContactClick}
-										className='border-r border-light-tomato pr-1'>
-										<p className='text-xl hover:bg-light-tomato/15 p-2 rounded-2xl border-light-tomato'>
+										className=' border-light-tomato pr-1'>
+										<p className='text-xl hover:bg-light-tomato/15 p-2  border-light-tomato font-light'>
 											Contact
 										</p>
 									</div>
@@ -150,13 +150,13 @@ const NavBar = () => {
 							</div>
 
 							<div className='mr-10'>
-								<button className='flex items-center gap-1 rounded-full bg-dark-navy px-8 py-3 text-xl hover:bg-light-gray text-white shadow-lg shadow-gray-300'>
-									<p className='flex'>Reach&nbsp;Us</p>
+								<button className='flex items-center gap-1 rounded-4xl bg-dark-navy px-4 py-2 text-xl hover:bg-light-gray text-white shadow-lg shadow-gray-300'>
+									<p className='flex text-sm font-light'>Reach&nbsp;Us</p>
 
 									<FaArrowRight className='bg-light-tomato p-1 rounded-full text-2xl' />
 								</button>
 							</div>
-						</>
+						</div>
 					) : (
 						<div>
 							<button

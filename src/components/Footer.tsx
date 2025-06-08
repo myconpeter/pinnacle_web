@@ -4,7 +4,7 @@ import PinnacleLogo from '../assets/PinnacleLogo.png';
 const Footer = () => {
 	return (
 		<>
-			<div className='relative w-full px-3 md:px-6 mt-28 md:mt-24 items-center bg-light-pink pb-10'>
+			<div className='relative w-full px-6 md:px-6 mt-28 md:mt-32 items-center bg-light-pink pb-10'>
 				<div className='flex items-center  gap-2 pt-28 md:pt-56 md:gap-5'>
 					<img
 						src={PinnacleLogo}
@@ -46,7 +46,7 @@ const Footer = () => {
 			</div>
 
 			<div className='bg-dark-navy h-10 flex items-center justify-center '>
-				<p className='text-white  text-center '>
+				<p className='text-white  text-center  font-light text-[10px] md:text-xs '>
 					&copy; {new Date().getFullYear()} All copyright reserved
 				</p>
 			</div>

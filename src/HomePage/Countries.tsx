@@ -66,9 +66,9 @@ const Countries = () => {
 		},
 	];
 	return (
-		<div id='country' className='relative w-full px-3 md:px-6 mt-16 md:mt-24 items-center bg-light-pink rounded-3xl pb-20'>
-			<p className='pt-10 text-2xl md:text-6xl font-bold'>Countries</p>
-			<p className='mt-5 md:text-2xl'>
+		<div id='country' className='relative w-full px-3  md:px-20 mt-16 md:mt-24 items-center bg-pink-200/40 md:rounded-3xl pb-10'>
+			<p className='pt-10 text-2xl md:text-6xl font-medium'>Countries</p>
+			<p className='mt-5 md:text-2xl text-sm font-light'>
 				Check out the basic requirements to study in the following countries
 				<Link
 					to='/basic-requirement'
@@ -84,8 +84,8 @@ const Countries = () => {
 				{allCountries.map(({ country, code, link }) => (
 					<Link
 						to={link}
-						className='flex-shrink-0 flex flex-col items-center justify-center w-40 h-40 md:w-96 md:h-96 bg-white rounded-4xl '>
-						<p className='text-center  font-bold md:font-light md:text-5xl md:mb-10'>
+						className='flex-shrink-0 flex flex-col items-center justify-center w-40 h-40 md:w-96 md:h-80 bg-white rounded-2xl md:rounded-4xl '>
+						<p className='text-center  font-medium md:font-medium md:text-3xl md:mb-10'>
 							{country}
 						</p>
 						<Flag
@@ -97,10 +97,10 @@ const Countries = () => {
 			</div>
 
 			<div className='mr-10 mt-10'>
-				<button className='flex items-center gap-1 rounded-full bg-dark-navy px-8 py-3 text-xl hover:bg-light-gray text-white shadow-lg shadow-gray-300'>
-					<p className='flex'>See&nbsp;More</p>
+				<button className='flex items-center gap-1 rounded-full bg-dark-navy px-4 py-3 text-xl hover:bg-light-gray text-white shadow-lg shadow-gray-300'>
+					<p className='flex text-sm'>See&nbsp;More</p>
 
-					<FaArrowRight className='bg-light-tomato p-1 rounded-full text-2xl' />
+					<FaArrowRight className='bg-light-tomato p-1 rounded-full text-xl' />
 				</button>
 			</div>
 		</div>
