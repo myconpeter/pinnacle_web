@@ -4,6 +4,7 @@ import PolandShake from '../assets/PolandShake.png';
 import PolandUp from '../assets/PolandUp.png';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import PolandFooter from '../assets/PolandFooter.jpg'
 
 const Poland = () => {
 	return (
@@ -169,7 +170,7 @@ const Poland = () => {
             <div
 				className={` absolute z-20 top w-full px-3 md:px-24 mt-10   md:mt-10  items-center `}>
 				<img
-					src={PolandCity}
+					src={PolandFooter}
 					alt='Demo'
 					className=' md:ml-5 h-36 md:h-60 w-screen'
 				/>

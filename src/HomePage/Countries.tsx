@@ -47,26 +47,28 @@ const Countries = () => {
 		{
 			country: 'France',
 			code: 'FR',
-			link: '/',
+			link: '/france',
 		},
 		{
 			country: 'Switzerland',
 			code: 'CH',
-			link: '/',
+			link: '/switzerland',
 		},
 		{
 			country: 'Spain',
 			code: 'ES',
-			link: '/',
+			link: '/spain',
 		},
 		{
 			country: 'Cyprus',
 			code: 'CY',
-			link: '/',
+			link: '/cyprus',
 		},
 	];
 	return (
-		<div id='country' className='relative w-full px-3  md:px-20 mt-16 md:mt-24 items-center bg-pink-200/40 md:rounded-3xl pb-10'>
+		<div
+			id='country'
+			className='relative w-full px-3  md:px-20 mt-16 md:mt-24 items-center bg-pink-200/40 md:rounded-3xl pb-10'>
 			<p className='pt-10 text-2xl md:text-6xl font-medium'>Countries</p>
 			<p className='mt-5 md:text-2xl text-sm font-light'>
 				Check out the basic requirements to study in the following countries

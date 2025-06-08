@@ -14,6 +14,10 @@ import Australia from './pages/Australia';
 import Germany from './pages/Germany';
 import Poland from './pages/Poland';
 import ScrollToTop from './components/ScrollToTop';
+import France from './pages/France';
+import Swiz from './pages/Swiz';
+import Spain from './pages/Spain';
+import Cry from './pages/Cry';
 
 
 function App() {
@@ -77,6 +81,22 @@ function App() {
 				<Route
 					path='poland'
 					element={<Poland />}
+				/>
+				<Route
+					path='france'
+					element={<France />}
+				/>
+				<Route
+					path='switzerland'
+					element={<Swiz />}
+				/>
+				<Route
+					path='spain'
+					element={<Spain />}
+				/>
+				<Route
+					path='cyprus'
+					element={<Cry />}
 				/>
 			</Routes>
 		</BrowserRouter>

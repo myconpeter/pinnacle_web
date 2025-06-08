@@ -8,14 +8,14 @@ const Headers = () => {
 		<>
 			<div
 				id='home'
-				className={` relative w-full md:px-6 md:-mt-10 mt-12  items-center`}>
+				className={` relative w-full md:px-20 md:-mt-10 mt-12  items-center`}>
 				<img
 					src={Demo}
 					alt='Demo'
 					className='md:rounded-3xl'
 				/>
 			</div>
-			<div className={` relative w-full md:px-6  md:mt-5 mt-2 items-center`}>
+			<div className={` relative w-full md:px-20  md:mt-5 mt-2 items-center`}>
 				<img
 					src={DemoTwo}
 					alt='DemoTwo'
