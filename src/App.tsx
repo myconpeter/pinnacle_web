@@ -18,6 +18,7 @@ import France from './pages/France';
 import Swiz from './pages/Swiz';
 import Spain from './pages/Spain';
 import Cry from './pages/Cry';
+import Privacy from './pages/Privacy';
 
 
 function App() {
@@ -100,7 +101,7 @@ function App() {
 				/>
 				<Route
 					path='terms'
-					element={<Cry />}
+					element={<Privacy />}
 				/>
 			</Routes>
 		</BrowserRouter>

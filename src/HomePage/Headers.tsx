@@ -37,8 +37,8 @@ const Headers = () => {
 							className='md:rounded-3xl '
 						/>
 						<div className=' absolute bottom-7 right-3'>
-							<button className='flex items-center gap-1 rounded-4xl bg-white px-0.5  py-0.5 text-xl hover:bg-light-gray text-dark-navy'>
-								<p className='flex text-sm  font-medium'>Join&nbsp;Us</p>
+							<button className='flex items-center gap-1 rounded-4xl bg-white pl-2 pr-1  py-0.5 text-xl hover:bg-light-gray text-dark-navy'>
+								<p className='flex text-sm  font-light'>Join&nbsp;Us</p>
 
 								<FaArrowRight className='bg-light-tomato p-1 text-white rounded-full text-2xl' />
 							</button>
@@ -46,7 +46,7 @@ const Headers = () => {
 					</div>
 				)}
 			</div>
-			<div className={` relative w-full md:px-20  md:mt-5 mt-2 items-center`}>
+			<div className={` relative w-full md:px-20  md:mt-5 items-center`}>
 				<img
 					src={DemoTwo}
 					alt='DemoTwo'
