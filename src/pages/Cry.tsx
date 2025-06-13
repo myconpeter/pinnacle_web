@@ -9,7 +9,7 @@ const Cry = () => {
 			<NavBar />
 			{/* page heading */}
 
-			<div className='relative w-full px-3 md:px-20  mt-10 md:mt-0 items-center'>
+			<div className='relative w-full md:px-20  mt-10 md:mt-0 items-center'>
 				<div className='md:flex items-center justify-between'>
 					<div className='md:w-3/6'>
 						<img
@@ -17,13 +17,13 @@ const Cry = () => {
 							alt='satbig'
 						/>
 					</div>
-					<div className='md:w-3/6'>
-						<div className=' md:mt-24'>
-							<p className='text-realYellow text-xl  md:text-3xl text-center font-bold'>
+					<div className='md:w-3/6 px-3'>
+						<div className=' md:mt-24 mt-5'>
+							<p className='text-realYellow text-xl  md:text-3xl text-center font-medium'>
 								STUDY IN CYPRUS
 							</p>
 						</div>
-						<p className='md:text-2xl/loose mt-8  text-lg/loose'>
+						<p className='md:text-2xl/loose mt-8  text-lg/loose font-light'>
 							In Cyprus, the pace is calm, the skies are blue, and the doors to
 							international-quality education are wide open. Whether you’re aiming for
 							a globally respected degree, an affordable pathway to Europe, or simply
@@ -34,17 +34,17 @@ const Cry = () => {
 			</div>
 
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl mt-5 text-realYellow font-semibold mb-2'>
+				<p className='text-lg md:text-2xl mt-5 text-realYellow font-medium mb-2'>
 					Some of the Reasons Accounting for Increase in Number of International Students
 					in Cyprus
 				</p>
 			</div>
 
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					1. Affordable Tuition + Low Cost of Living
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Cyprus offers one of the lowest tuition fees in Europe, with undergraduate
 					programs starting from €3,000 to €7,000 per year, and Master’s degrees often
 					below €8,000 total. Living expenses are equally friendly, with students
@@ -52,20 +52,20 @@ const Cry = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					2. Study in English—No Language Barrier
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					All major programs at both public and private universities are taught in
 					English, making Cyprus an excellent option for students from Nigeria and other
 					English-speaking countries.
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					3. Recognized and Transferable Degrees
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light '>
 					Universities in Cyprus follow the European Higher Education Area (EHEA)
 					standards, meaning your degree is recognized across Europe and beyond. Some
 					institutions are also affiliated with UK, US, or EU universities, allowing easy
@@ -73,10 +73,10 @@ const Cry = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					4. Easy Admission, Simple Visa Process
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Cyprus offers less competitive entry requirements, making it ideal for students
 					who may not have top grades or test scores but still deserve quality education.
 					The visa process is straightforward, and we at Pinnacle will walk you through it
@@ -84,48 +84,48 @@ const Cry = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					5. Work Opportunities for Students
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					While part-time work is regulated, international students in Cyprus can work up
 					to 20 hours per week during their studies, in sectors like hospitality, retail,
 					or services—perfect for gaining experience and supporting your stay.
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					6. Safe, Welcoming, and Peaceful
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					With one of the lowest crime rates in Europe, Cyprus is perfect for students who
 					want a safe, stable, and supportive environment. Locals are warm, English is
 					widely spoken, and the lifestyle is easygoing but inspiring.
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					7. Beautiful Environment and Travel Opportunities
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Cyprus is a stunning Mediterranean island with beaches, mountains, ancient
 					ruins, and vibrant towns. And with a student visa, you gain access to Europe's
 					Schengen zone for future travel and adventure.
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center md:pb-24'>
-				<p className='text-lg md:text-2xl text-realYellow font-semibold'>
+				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					At Pinnacle Education and Training Limited, Uyo
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					We help you choose smart. From university selection to visa processing, tuition
 					payment, scholarship support, and departure prep, our expert counselors ensure
 					that studying in Cyprus is simple, strategic, and successful.
 				</p>
-				<p className='text-sm/loose mt-2 md:text-xl/loose '>
+				<p className='text-sm/loose mt-2 md:text-xl/loose font-light'>
 					Cyprus is where affordability meets opportunity.
 				</p>
-				<p className='text-sm/loose mt-2 md:text-xl/loose '>
+				<p className='text-sm/loose mt-2 md:text-xl/loose font-light '>
 					Let Pinnacle take you there—with purpose, with precision, and with passion.
 				</p>
 			</div>

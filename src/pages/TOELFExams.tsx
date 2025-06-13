@@ -93,7 +93,7 @@ const TOELFExams = () => {
 
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
 				<p className='text-2xl md:text-4xl text-darkBlue font-semibold'>TOEFL Test Dates</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>
 					TOEFL iBT is available multiple times monthly. Visit the official ETS website
 					<a
 						className='underline text-darkBlue'
@@ -109,16 +109,16 @@ const TOELFExams = () => {
 				<p className='text-2xl md:text-4xl text-darkBlue font-semibold'>
 					TOEFL Test Centers in Nigeria
 				</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>
 					Available in major cities such as:
 				</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Lagos</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Abuja</p>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>Lagos</p>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>Abuja</p>
 
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Port Harcourt</p>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>Port Harcourt</p>
 			</div>
 
-			<div className={` relative w-full  md:px-20  mt-16 md:mt-24 items-center `}>
+			<div className={` relative w-full  md:px-20  mt-16 md:mt-24 items-center md:pb-24`}>
 				<img
 					src={WorldMap}
 					alt='Demo'
@@ -126,11 +126,11 @@ const TOELFExams = () => {
 				/>
 			</div>
 
-			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:mt-1  items-center `}>
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-14  items-center `}>
 				<img
 					src={TofelFooter}
 					alt='TofelFooter'
-					className=' md:ml-5 h-36 md:h-60 w-screen'
+					className=' md:ml-5'
 				/>
 			</div>
 			<Footer />

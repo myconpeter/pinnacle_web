@@ -46,31 +46,31 @@ const BasicRequirement = () => {
 			<NavBar />
 
 			{/* image section */}
-			<div className={` relative w-full px-2 md:px-20  mt-16 md:mt-24 items-center `}>
+			<div className={` relative w-full md:px-20  md:mt-16 items-center `}>
 				<img
 					src={HandonComputer}
 					alt='Demo'
-					className='rounded-3xl md:ml-5 md:h-96 md:w-full'
+					className=' md:ml-5 md:h-96 md:w-full'
 				/>
 			</div>
 
 			{/* Basic requirement */}
 
-			<div className='relative w-full px-3 md:px-6  md:mt-24 items-center rounded-3xl pb-10'>
-				<p className='pt-10 text-xl md:text-4xl font-bold text-light-tomato'>
+			<div className='relative w-full px-3 md:px-20  md:mt-24 items-center rounded-3xl pb-10'>
+				<p className='pt-10 text-xl md:text-4xl font-medium text-light-tomato'>
 					Basic requirements For admission processing
 				</p>
 				<div className='mt-5 md:mt-16'>
 					{allReasons.map(({ text }) => (
 						<div className='flex items-center gap-2 mt-3 md:mt-12 md:gap-4'>
 							<MdKeyboardDoubleArrowRight className='text-light-tomato md:text-3xl' />
-							<p className='text-black text-sm md:text-2xl'>{text}</p>
+							<p className='text-black text-sm md:text-2xl font-light'>{text}</p>
 						</div>
 					))}
 				</div>
 			</div>
 
-			<div className='relative w-full px-3 md:px-6  md:mt-24 items-center rounded-3xl pb-10'>
+			<div className='relative w-full px-3 md:px-20  md:mt-24 items-center rounded-3xl pb-10'>
 				<div>
 					<Link
 						to='/'
@@ -109,26 +109,26 @@ const BasicRequirement = () => {
 				</div>
 
 				<div className='flex items-center justify-center mt-5 md:mt-10'>
-					<p className='text-xl md:text-3xl'>Or</p>
+					<p className='text-xl md:text-3xl font-light'>Or</p>
 				</div>
 			</div>
 
-			<div className='relative w-full px-3 md:px-6   items-center pb-20'>
+			<div className='relative w-full md:px-6   items-center pb-20'>
 				<div className='bg-lighterBlue p-3 flex justify-center items-center'>
 					<p className='text-white font-bold text-3xl'>CONTACT US</p>
 				</div>
 
 				<div>
-					<p className='mt-5 text-xl font-semibold text-center'>HEAD OFFICE</p>
+					<p className='mt-5 text-xl font-medium text-center'>HEAD OFFICE</p>
 					<div className='flex flex-col md:flex md:flex-row  items-center justify-center md:justify-around'>
 						<div className='text-center flex flex-col items-center gap-1'>
-							<p className='text-white bg-lighterBlue p-3 text-xl font-bold w-fit'>
+							<p className='text-white bg-lighterBlue p-2 text-xl font-bold w-fit'>
 								Lagos
 							</p>
 							<p>5 Abdul Benson Street </p>
 							<p> behind Eco bank, </p>
 							<p>off Lagos road Ikorodu.</p>
-							<p className='font-semibold'> 08029837117</p>
+							<p className='font-medium'> 08029837117</p>
 							<p>
 								Email:{' '}
 								<a
@@ -140,12 +140,12 @@ const BasicRequirement = () => {
 						</div>
 
 						<div className='text-center flex flex-col md:flex items-center gap-1 mt-10'>
-							<p className='text-white bg-lighterBlue p-3 text-xl font-bold w-fit'>
+							<p className='text-white bg-lighterBlue p-2 text-xl font-bold w-fit'>
 								Akwa Ibom
 							</p>
 							<p>5 Udo Abasi street,</p>
 							<p> off Abak road behind Pepperoni, Uyo. </p>
-							<p className='font-semibold'> 07088009511, 08036692720</p>
+							<p className='font-medium'> 07088009511, 08036692720</p>
 							<p>
 								Email:{' '}
 								<a
@@ -158,11 +158,11 @@ const BasicRequirement = () => {
 					</div>
 				</div>
 			</div>
-			<div className={` absolute z-20 top w-full px-3 md:px-24  mt-8 md:mt-1  items-center `}>
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-18  items-center `}>
 				<img
 					src={BasicFooter}
 					alt='Demo'
-					className=' md:ml-5 h-36 md:h-60 w-screen'
+					className=' md:ml-5'
 				/>
 			</div>
 			<Footer />

@@ -4,36 +4,43 @@ import PolandShake from '../assets/PolandShake.png';
 import PolandUp from '../assets/PolandUp.png';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
-import PolandFooter from '../assets/PolandFooter.jpg'
+import PolandFooter from '../assets/PolandFooter.jpg';
 
 const Poland = () => {
 	return (
 		<div>
 			<NavBar />
-			<div className={` relative w-full px-2 md:px-20  mt-16 md:mt-24 items-center `}>
-				<img
-					src={PolandFlag}
-					alt='ZealandFlag'
-					className=' md:h-[500px] md:w-full'
-				/>
+			<div className='relative w-full md:px-20  mt-10 md:mt-16 items-center'>
+				<div className='md:flex  items-center justify-between'>
+					<div className='md:w-3/6'>
+						<img
+							src={PolandFlag}
+							alt='satbig'
+						/>
+					</div>
+					<div className='md:w-3/6'>
+						<div className=' md:mt-24'>
+							<p className='text-xl md:text-3xl text-center text-horseBlood font-semibold mt-4'>
+								STUDY IN POLAND
+							</p>
+						</div>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose font-light px-3 '>
+							Poland is Europe’s best-kept academic secret—a place where history meets
+							innovation, where quality meets affordability, and where international
+							students are warmly welcomed into a fast-growing educational ecosystem.
+						</p>
+					</div>
+				</div>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-xl md:text-3xl text-center text-horseBlood font-semibold '>
-					STUDY IN POLAND
-				</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>
-					Poland is Europe’s best-kept academic secret—a place where history meets
-					innovation, where quality meets affordability, and where international students
-					are warmly welcomed into a fast-growing educational ecosystem.
-				</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>
 					If you’re looking for a European degree that won’t drain your wallet, a
 					multicultural lifestyle, and a solid post-graduation path, then Poland deserves
 					your attention.
 				</p>
 			</div>
 
-			<div className='relative w-full px-3 md:px-20  md:mt-24 items-center'>
+			<div className='relative w-full md:px-20  md:mt-24 items-center'>
 				<div className='md:flex items-center justify-between'>
 					<div className='md:w-3/6'>
 						<img
@@ -41,8 +48,8 @@ const Poland = () => {
 							alt='AusTop'
 						/>
 					</div>
-					<div className='md:w-3/6'>
-						<p className='md:text-2xl/loose text-lg/loose text-horseBlood text-center font-semibold'>
+					<div className='md:w-3/6 px-3'>
+						<p className='md:text-2xl/loose text-lg/loose text-horseBlood text-center font-medium'>
 							Some of the Reasons Accounting For Increase in number of International
 							Students in Poland{' '}
 						</p>
@@ -51,10 +58,10 @@ const Poland = () => {
 			</div>
 
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-horseBlood font-semibold'>
+				<p className='text-lg md:text-2xl text-horseBlood font-medium'>
 					1. Affordable Tuition and Low Living Costs
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light '>
 					Poland offers high-quality education at a fraction of the cost. Tuition fees
 					range between €2,000 and €4,000 per year for most courses—a bargain compared to
 					countries like the UK or USA. Living expenses are also low, with most students
@@ -62,10 +69,10 @@ const Poland = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-horseBlood font-semibold'>
+				<p className='text-lg md:text-2xl text-horseBlood font-medium'>
 					2. English-Taught Programs Across All Fields
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					You don’t need to speak Polish to earn your degree here. With over 800
 					English-taught programs, Poland caters to international students in fields like
 					medicine, engineering, business, IT, arts, and social sciences. No language
@@ -73,10 +80,10 @@ const Poland = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-horseBlood font-semibold'>
+				<p className='text-lg md:text-2xl text-horseBlood font-medium'>
 					3. Globally Respected Degrees
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Polish universities follow the Bologna process, meaning your degree is
 					recognized across all EU and EHEA countries. Institutions like Jagiellonian
 					University, Warsaw University of Technology, and University of Warsaw have
@@ -84,20 +91,20 @@ const Poland = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-horseBlood font-semibold'>
+				<p className='text-lg md:text-2xl text-horseBlood font-medium'>
 					4. Work While You Study
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					International students in Poland are allowed to work up to 20 hours per week
 					during the semester, and full-time during holidays—perfect for building skills
 					and supplementing your income while studying.
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-horseBlood font-semibold'>
+				<p className='text-lg md:text-2xl text-horseBlood font-medium'>
 					5. Stay and Work After Graduation
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Poland’s friendly post-study immigration policy allows graduates to apply for a
 					temporary residence permit to stay back and seek work. Once employed, this can
 					lead to long-term residence or permanent residency—a pathway not many countries
@@ -105,7 +112,7 @@ const Poland = () => {
 				</p>
 			</div>
 
-			<div className={` relative w-full px-2 md:px-20  mt-16 md:mt-24 items-center `}>
+			<div className={` relative w-full  md:px-20  mt-4 md:mt-24 items-center `}>
 				<img
 					src={PolandCity}
 					alt='CanadaApproved'
@@ -137,14 +144,14 @@ const Poland = () => {
 				<p className='text-lg md:text-2xl text-horseBlood font-semibold'>
 					8. A Country with Culture and Soul
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Poland offers a deep cultural experience—from its medieval towns and majestic
 					castles to lively festivals and historic landmarks. You’ll not only study in
 					Poland—you’ll grow, explore, and evolve.
 				</p>
 			</div>
 
-			<div className='relative w-full px-3 md:px-20 mt-5  md:mt-24 items-center'>
+			<div className='relative w-full md:px-20 mt-5  md:mt-24 items-center'>
 				<div className='md:flex items-center justify-between'>
 					<div className='md:w-3/6'>
 						<img
@@ -152,27 +159,26 @@ const Poland = () => {
 							alt='UkWoman'
 						/>
 					</div>
-					<div className='md:w-3/6 md:ml-4'>
-						<p className='md:text-2xl/loose text-sm/loose '>
+					<div className='md:w-3/6 md:ml-4 px-3 font-light'>
+						<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 							At Pinnacle Education and Training Limited, Uyo, we make your Polish
 							study dreams real. From choosing the right university, to visa
 							processing, IELTS prep, scholarship{' '}
 						</p>
 					</div>
 				</div>
-				<p className='text-sm/loose md:text-2xl/loose '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light px-3 md:pb-24'>
 					guidance, and post-arrival support, our expert team is with you at every stage.
 					Poland offers more than a degree—it offers a doorway. Let us help you walk
 					through it.
 				</p>
 			</div>
 
-            <div
-				className={` absolute z-20 top w-full px-3 md:px-24 mt-10   md:mt-10  items-center `}>
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-18  items-center `}>
 				<img
 					src={PolandFooter}
 					alt='Demo'
-					className=' md:ml-5 h-36 md:h-60 w-screen'
+					className=' md:ml-5'
 				/>
 			</div>
 			<Footer />

@@ -33,12 +33,12 @@ const Footer = () => {
 						How we work
 					</Link>
 					<Link
-						to='/'
+						to='/terms'
 						className='text-[px] sm:text-xl md:text-xs lg:text-lg'>
 						Privacy Policy
 					</Link>
 					<Link
-						to='/'
+						to='/terms'
 						className='text-[px] sm:text-xl md:text-xs lg:text-lg'>
 						Terms & Conditions
 					</Link>
