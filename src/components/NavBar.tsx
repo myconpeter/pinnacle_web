@@ -20,10 +20,11 @@ const NavBar = () => {
 			navigate('/');
 			setTimeout(() => {
 				const element = document.getElementById('exams');
+				
 				if (element) {
 					element.scrollIntoView({ behavior: 'smooth' });
 				}
-			}, 100);
+			}, 400);
 			setIsMenuToggled(!isMenuToggled);
 		} else {
 			const element = document.getElementById('exams');
@@ -41,7 +42,7 @@ const NavBar = () => {
 				if (element) {
 					element.scrollIntoView({ behavior: 'smooth' });
 				}
-			}, 100);
+			}, 400);
 			setIsMenuToggled(!isMenuToggled);
 		} else {
 			const element = document.getElementById('country');
@@ -59,7 +60,7 @@ const NavBar = () => {
 				if (element) {
 					element.scrollIntoView({ behavior: 'smooth' });
 				}
-			}, 100);
+			}, 400);
 			setIsMenuToggled(!isMenuToggled);
 		} else {
 			const element = document.getElementById('contact');
