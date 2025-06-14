@@ -1,25 +1,35 @@
 import { FaCheckCircle } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const allReasons = [
-	{
-		text: 'Experienced Tutors with a proven track record.',
-	},
-	{
-		text: 'Personalized learning plans tailored to individual goals.',
-	},
-	{
-		text: 'Flexible learning option (online and in-person).',
-	},
-	{
-		text: 'Comprehensive study materials and resources.',
-	},
-	{
-		text: 'Affordable registration and tuition fees.',
-	},
-	{
-		text: 'Free academic counselling sessions.',
-	},
+	{ text: 'Experienced Tutors with a proven track record.' },
+	{ text: 'Personalized learning plans tailored to individual goals.' },
+	{ text: 'Flexible learning option (online and in-person).' },
+	{ text: 'Comprehensive study materials and resources.' },
+	{ text: 'Affordable registration and tuition fees.' },
+	{ text: 'Free academic counselling sessions.' },
 ];
+
+const containerVariants = {
+	hidden: {},
+	show: {
+		transition: {
+			staggerChildren: 0.15,
+		},
+	},
+};
+
+const itemVariants = {
+	hidden: { opacity: 0, x: 80 },
+	show: {
+		opacity: 1,
+		x: 0,
+		transition: {
+			duration: 1,
+			ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number],
+		},
+	},
+};
 
 const Why = () => {
 	return (
@@ -27,18 +37,23 @@ const Why = () => {
 			<p className='pt-10 text-xl md:text-4xl font-medium text-darkBlue'>
 				Why Pinnacle Education And Training Limited
 			</p>
-			<div className='mt-5 md:mt-16'>
 
-                {allReasons.map(({text})=>(
-                    <div className='flex items-center gap-2 mt-3 md:mt-12 md:gap-4'>
-					<FaCheckCircle className='text-darkBlue md:text-3xl' />
-					<p className='text-darkBlue text-sm md:text-2xl font-light'>
-						{text}
-					</p>
-				</div>
-                ))}
-				
-			</div>
+			<motion.div
+				variants={containerVariants}
+				initial='hidden'
+				whileInView='show'
+				viewport={{ once: true }}
+				className='mt-5 md:mt-16'>
+				{allReasons.map(({ text }, index) => (
+					<motion.div
+						variants={itemVariants}
+						key={index}
+						className='flex items-center gap-2 mt-4 md:mt-10 md:gap-4'>
+						<FaCheckCircle className='text-darkBlue md:text-3xl' />
+						<p className='text-darkBlue text-sm md:text-2xl font-light'>{text}</p>
+					</motion.div>
+				))}
+			</motion.div>
 		</div>
 	);
 };

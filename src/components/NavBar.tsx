@@ -4,6 +4,12 @@ import { MdMenu } from 'react-icons/md';
 import { IoClose } from 'react-icons/io5';
 import { useState } from 'react';
 import PinnacleLogo from '../assets/PinnacleLogo.png';
+import ExamIcon from '../assets/ExamIcon.svg';
+import HomeIcon from '../assets/HomeIcon.svg';
+import CountryIcon from '../assets/CountryIcon.svg';
+import AboutIcon from '../assets/AboutIcon.svg';
+import ContactIcon from '../assets/ContactIcon.svg';
+
 import { Link, useLocation, useNavigate } from 'react-router';
 
 const NavBar = () => {
@@ -20,7 +26,7 @@ const NavBar = () => {
 			navigate('/');
 			setTimeout(() => {
 				const element = document.getElementById('exams');
-				
+
 				if (element) {
 					element.scrollIntoView({ behavior: 'smooth' });
 				}
@@ -180,19 +186,49 @@ const NavBar = () => {
 								<IoClose className='h-6 w-6 text-white font-bold' />
 							</button>
 						</div>
-						<div onClick={handleHomeClick}>
+						<div
+							className='flex w-5 h-5 items-center justify-center gap-3'
+							onClick={handleHomeClick}>
+							<img
+								src={HomeIcon}
+								alt='home'
+							/>
 							<p className='text-xl'>Home</p>
 						</div>
-						<Link to='/about'>
+						<Link
+							to='/about'
+							className='flex w-5 h-5 items-center justify-center gap-3'>
+							<img
+								src={AboutIcon}
+								alt='home'
+							/>
 							<p className='text-xl'>About</p>
 						</Link>
-						<div onClick={handleExamsClick}>
+						<div
+							onClick={handleExamsClick}
+							className='flex w-5 h-5 items-center justify-center gap-3'>
+							<img
+								src={ExamIcon}
+								alt='home'
+							/>
 							<p className='text-xl'>Exams</p>
 						</div>
-						<div onClick={handleCountryClick}>
+						<div
+							onClick={handleCountryClick}
+							className='flex w-5 h-5 items-center justify-center gap-3'>
+							<img
+								src={CountryIcon}
+								alt='home'
+							/>
 							<p className='text-xl'>Countries</p>
 						</div>
-						<div onClick={handleContactClick}>
+						<div
+							onClick={handleContactClick}
+							className='flex w-5 h-5 items-center justify-center gap-3'>
+							<img
+								src={ContactIcon}
+								alt='home'
+							/>
 							<p className='text-xl'>Contact</p>
 						</div>
 
