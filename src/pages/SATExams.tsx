@@ -183,30 +183,34 @@ const SATExams = () => {
 					background. However, students under 13 require parental consent to register.
 				</p>
 			</div>
-			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-2xl md:text-4xl text-darkBlue font-semibold'>
+			<div className='relative w-full md:px-20 mt-10  md:mt-24 items-center md:pb-24'>
+				<p className='text-2xl px-3 md:text-4xl text-darkBlue font-semibold'>
 					SAT Test Centers in Nigeria
 				</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>
+				<p className='text-lg/loose px-3 mt-5 md:text-2xl/loose '>
 					SAT exams are conducted in various locations across Nigeria, including:
 				</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Abuja FCT</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Asaba</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Enugu</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Jos</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Lagos</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Owerri</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Port Harcourt</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Kaduna</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose '>Benin</p>
-			</div>
+				<div className='md:flex'>
+					<div className='px-3'>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Abuja FCT</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Asaba</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Enugu</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Jos</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Lagos</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Owerri</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Port Harcourt</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Kaduna</p>
+						<p className='text-lg/loose mt-5 md:text-2xl/loose '>Benin</p>
+					</div>
 
-			<div className={` relative w-full md:px-20  mt-16 md:mt-24 items-center md:pb-24  `}>
-				<img
-					src={WorldMap}
-					alt='Demo'
-					className='md:rounded-xl md:ml-5 md:h-[500px] md:w-full'
-				/>
+					<div className={` relative md:px-20  mt-16 md:mt-0   items-center   `}>
+						<img
+							src={WorldMap}
+							alt='Demo'
+							className='md:ml-5'
+						/>
+					</div>
+				</div>
 			</div>
 
 			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-14  items-center `}>
