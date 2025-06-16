@@ -7,7 +7,7 @@ import { FaFacebookMessenger } from 'react-icons/fa6';
 const Footer = () => {
 	return (
 		<>
-			<div className='relative w-full px-6 md:px-6 mt-28 md:mt-32 items-center bg-light-pink/35 pb-10'>
+			<div className='relative w-full px-6 md:pl-20 mt-28 md:mt-32 items-center bg-light-pink/35 pb-10'>
 				<div className='flex items-center  gap-2 pt-28 md:pt-56 md:gap-5'>
 					<img
 						src={PinnacleLogo}
@@ -21,7 +21,7 @@ const Footer = () => {
 				</div>
 
 				<div className='flex flex-col md:flex-row-reverse md:justify-center md:w-[100%]'>
-					<div className='mt-4 flex flex-col gap-3 md:w-[50%] md:pl-10 md:border-l-2 md:border-black'>
+					<div className='mt-4 flex flex-col gap-3 md:w-[50%] md:pl-10 md:ml-10 md:border-l md:border-black'>
 						<Link
 							to='/about'
 							className='text-[px] sm:text-xl md:text-xl lg:text-lg font-light'>
@@ -50,7 +50,7 @@ const Footer = () => {
 					</div>
 
 					<div className='mt-10 md:w-[50%]'>
-						<p className='font-light text-sm'>
+						<p className='font-medium text-sm'>
 							Pinnacle Education Training Ltd is a leading provider of professional
 							training and development programs. Learn. Grow. Succeed.
 						</p>

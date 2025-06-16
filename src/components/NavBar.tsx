@@ -109,7 +109,7 @@ const NavBar = () => {
 							className='w-9 md:w-14'
 						/>
 
-						<p className='text-[12px] sm:text-xl md:text-xs lg:text-lg font-light'>
+						<p className='text-[12px] sm:text-xl md:text-xs lg:text-lg font-medium'>
 							PINNACLE EDUCATION TRAINING LTD
 						</p>
 					</Link>
@@ -157,11 +157,12 @@ const NavBar = () => {
 							</div>
 
 							<div className='mr-10'>
-								<button className='flex items-center gap-1 rounded-4xl bg-dark-navy px-4 py-2 text-xl hover:bg-light-gray text-white shadow-lg shadow-gray-300'>
-									<p className='flex text-sm font-light'>Reach&nbsp;Us</p>
-
-									<FaArrowRight className='bg-light-tomato p-1 rounded-full text-2xl' />
-								</button>
+								<a href='mailto:pinnacleeducationuyo@gmail.com'>
+									<button className='flex items-center gap-1 rounded-4xl bg-dark-navy px-4 py-2 text-xl hover:bg-light-gray text-white shadow-lg shadow-gray-300'>
+										<p className='flex text-sm font-light'>Reach&nbsp;Us</p>
+										<FaArrowRight className='bg-light-tomato p-1 rounded-full text-2xl' />
+									</button>
+								</a>
 							</div>
 						</div>
 					) : (
@@ -233,11 +234,12 @@ const NavBar = () => {
 						</div>
 
 						<div className=''>
-							<button className='flex items-center gap-1 rounded-full bg-pureBlue px-8 py-3 text-xl hover:bg-light-gray text-white'>
-								<p className='flex'>Reach&nbsp;Us</p>
-
-								<FaArrowRight className='bg-light-tomato p-1 rounded-full text-2xl' />
-							</button>
+							<a href='mailto:pinnacleeducationuyo@gmail.com'>
+								<button className='flex items-center gap-1 rounded-full bg-pureBlue px-8 py-3 text-xl hover:bg-light-gray text-white'>
+									<p className='flex'>Reach&nbsp;Us</p>
+									<FaArrowRight className='bg-light-tomato p-1 rounded-full text-2xl' />
+								</button>
+							</a>
 						</div>
 					</div>
 				</div>

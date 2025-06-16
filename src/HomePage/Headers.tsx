@@ -9,17 +9,16 @@ const Headers = () => {
 	const isAboveMediumScreen = useMediaQuery('(min-width: 1060px)');
 
 	const imageVariant = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      duration: 0.8,
-      ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number],
-    },
-  },
-};
-
+		hidden: { opacity: 0, scale: 0.95 },
+		visible: {
+			opacity: 1,
+			scale: 1,
+			transition: {
+				duration: 0.8,
+				ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number],
+			},
+		},
+	};
 
 	const buttonVariant = {
 		hidden: { opacity: 0, y: 20 },
@@ -64,14 +63,19 @@ const Headers = () => {
 						/>
 
 						<motion.div
-							className='mr-10 absolute bottom-8 right-40'
+							className=' absolute bottom-8 right-40'
 							variants={buttonVariant}
 							initial='hidden'
 							animate='visible'>
-							<button className='flex items-center gap-1 rounded-4xl bg-white px-4 py-2 text-xl hover:bg-light-gray'>
-								<p className='flex text-xl font-medium'>Join&nbsp;our student</p>
-								<FaArrowRight className='bg-light-tomato p-1 text-white rounded-full text-2xl' />
-							</button>
+							<a
+								href='https://www.facebook.com/profile.php?id=61569420754100'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<button className='flex items-center gap-1 rounded-4xl bg-white px-4 py-2 text-xl hover:bg-light-gray'>
+									<p className='flex text-xl font-light'>Join&nbsp;our student</p>
+									<FaArrowRight className='bg-light-tomato p-1 text-white rounded-full text-2xl' />
+								</button>
+							</a>
 						</motion.div>
 					</motion.div>
 				) : (
@@ -90,10 +94,15 @@ const Headers = () => {
 							variants={buttonVariant}
 							initial='hidden'
 							animate='visible'>
-							<button className='flex items-center gap-1 rounded-4xl bg-white pl-2 pr-1 py-0.5 text-xl hover:bg-light-gray text-dark-navy'>
-								<p className='flex text-sm font-light'>Join&nbsp;Us</p>
-								<FaArrowRight className='bg-light-tomato p-1 text-white rounded-full text-2xl' />
-							</button>
+							<a
+								href='https://www.facebook.com/profile.php?id=61569420754100'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<button className='flex items-center gap-1 rounded-4xl bg-white pl-2 pr-1 py-0.5 text-xl hover:bg-light-gray text-dark-navy'>
+									<p className='flex text-sm font-light'>Join&nbsp;Us</p>
+									<FaArrowRight className='bg-light-tomato p-1 text-white rounded-full text-2xl' />
+								</button>
+							</a>
 						</motion.div>
 					</motion.div>
 				)}
