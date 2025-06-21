@@ -5,6 +5,7 @@ import PolandUp from '../assets/PolandUp.png';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import PolandFooter from '../assets/PolandFooter.jpg';
+import ContactUs from '../components/ContactUs';
 
 const Poland = () => {
 	return (
@@ -167,14 +168,16 @@ const Poland = () => {
 						</p>
 					</div>
 				</div>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light px-3 md:pb-24'>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light px-3'>
 					guidance, and post-arrival support, our expert team is with you at every stage.
 					Poland offers more than a degree—it offers a doorway. Let us help you walk
 					through it.
 				</p>
 			</div>
 
-			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-18  items-center `}>
+			<ContactUs />
+
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20 items-center `}>
 				<img
 					src={PolandFooter}
 					alt='Demo'

@@ -4,6 +4,7 @@ import FranceMap from '../assets/FranceMap.png';
 import NavBar from '../components/NavBar';
 import FranceFooter from '../assets/FranceFooter.jpg';
 import Footer from '../components/Footer';
+import ContactUs from '../components/ContactUs';
 
 const France = () => {
 	return (
@@ -100,9 +101,7 @@ const France = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-lg md:text-2xl text-black font-medium'>
-					4. Scholarships Galore
-				</p>
+				<p className='text-lg md:text-2xl text-black font-medium'>4. Scholarships Galore</p>
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					France offers a wide range of scholarships to international students—from Eiffel
 					Excellence Scholarships to institutional aid and regional grants. Pinnacle can
@@ -173,14 +172,15 @@ const France = () => {
 					</div>
 				</div>
 
-				<p className='text-sm/loose md:text-2xl/loose md:pb-28 px-3'>
+				<p className='text-sm/loose md:text-2xl/loose px-3'>
 					France isn’t just for lovers. It’s for learners. Let us help you begin your
 					journey.
 				</p>
 			</div>
 
-			<div
-				className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-14  items-center `}>
+			<ContactUs />
+
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center `}>
 				<img
 					src={FranceFooter}
 					alt='Demo'

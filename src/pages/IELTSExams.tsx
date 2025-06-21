@@ -6,6 +6,7 @@ import { GoDotFill } from 'react-icons/go';
 import WorldMap from '../assets/WorldMap.jpg';
 import Footer from '../components/Footer';
 import IeltsFooter from '../assets/IeltsFooter.jpg';
+import ContactUs from '../components/ContactUs';
 
 const IELTSExams = () => {
 	return (
@@ -97,9 +98,7 @@ const IELTSExams = () => {
 				</p>
 			</div>
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-2xl md:text-4xl text-light-tomato font-medium'>
-					IELTS Academic
-				</p>
+				<p className='text-2xl md:text-4xl text-light-tomato font-medium'>IELTS Academic</p>
 				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>
 					If you are planning to study in a country where English is spoken, it's likely
 					that the IELTS Academic test is the right choice for you.
@@ -184,9 +183,7 @@ const IELTSExams = () => {
 			</div>
 
 			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
-				<p className='text-2xl md:text-4xl text-light-tomato font-medium'>
-					IELTS for UKVI
-				</p>
+				<p className='text-2xl md:text-4xl text-light-tomato font-medium'>IELTS for UKVI</p>
 				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>
 					IELTS tests are accepted by the UK Visas and Immigration (UKVI) as proof of
 					English proficiency for those wishing to live, work, or study in the UK.
@@ -295,10 +292,18 @@ const IELTSExams = () => {
 					IELTS Exam Structure
 				</p>
 
-				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>Listening: 30 minutes</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>Reading: 60 minutes</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>Writing: 60 minutes</p>
-				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>Speaking: 11 - 14 minutes</p>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>
+					Listening: 30 minutes
+				</p>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>
+					Reading: 60 minutes
+				</p>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light '>
+					Writing: 60 minutes
+				</p>
+				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>
+					Speaking: 11 - 14 minutes
+				</p>
 				<p className='text-lg/loose mt-5 md:text-xl/loose italic text-light-tomato'>
 					Total duration: Approximately 2 hours and 45 minutes.
 				</p>
@@ -317,15 +322,15 @@ const IELTSExams = () => {
 				<p className='text-lg/loose mt-5 md:text-xl/loose font-light'>Port Harcourt.</p>
 			</div>
 
-			<div className={` relative w-full  md:px-20  mt-16 md:mt-24 items-center md:pb-24 `}>
+			<div className={` relative w-full  md:px-20  mt-16 md:mt-24 items-center `}>
 				<img
 					src={WorldMap}
 					alt='Demo'
 					className='md:rounded-3xl md:ml-5 md:h-[500px] md:w-full'
 				/>
 			</div>
-
-			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-14  items-center `}>
+			<ContactUs />
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-20  items-center `}>
 				<img
 					src={IeltsFooter}
 					alt='IeltsFooter'

@@ -1,5 +1,6 @@
 import CryFlag from '../assets/CryFlag.png';
 import CryFooter from '../assets/CryFooter.jpg';
+import ContactUs from '../components/ContactUs';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 
@@ -113,7 +114,7 @@ const Cry = () => {
 					Schengen zone for future travel and adventure.
 				</p>
 			</div>
-			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center md:pb-24'>
+			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
 				<p className='text-lg md:text-2xl text-realYellow font-medium'>
 					At Pinnacle Education and Training Limited, Uyo
 				</p>
@@ -130,7 +131,9 @@ const Cry = () => {
 				</p>
 			</div>
 
-            <div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-18  items-center `}>
+			<ContactUs />
+
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center `}>
 				<img
 					src={CryFooter}
 					alt='Demo'

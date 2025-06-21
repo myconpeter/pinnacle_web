@@ -5,6 +5,7 @@ import ZealandGirl from '../assets/ZealandGirl.png';
 import ZealandStudent from '../assets/ZealandStudent.png';
 import Footer from '../components/Footer';
 import Person from '../assets/ZealandFooter.jpg';
+import ContactUs from '../components/ContactUs';
 const NewZealand = () => {
 	return (
 		<div>
@@ -210,10 +211,12 @@ const NewZealand = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Pre-departure orientation and travel support
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose mb-5 font-light md:pb-24 '>
+				<p className='text-sm/loose mt-5 md:text-xl/loose mb-5 font-light '>
 					We’re here to simplify the process—so you can focus on your success.
 				</p>
 			</div>
+
+			<ContactUs />
 			<div className={` absolute z-20 top w-full md:px-24   md:-mt-20  items-center `}>
 				<img
 					src={Person}

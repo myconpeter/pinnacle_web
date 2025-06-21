@@ -4,6 +4,7 @@ import AusWoman from '../assets/AusWoman.png';
 import AusFooter from '../assets/AusFooter.jpg';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import ContactUs from '../components/ContactUs';
 
 const Australia = () => {
 	return (
@@ -180,15 +181,15 @@ const Australia = () => {
 				<p className='text-lg md:text-2xl text-black font-medium'>
 					10. Stunning Natural Beauty and Lifestyle Balance
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light md:pb-24'>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					From the Great Barrier Reef to the Outback, Australia is known for its
 					breathtaking landscapes. Students enjoy outdoor adventures, a healthy work-life
 					balance, and a society that values freedom, wellbeing, and personal development.
 				</p>
 			</div>
+			<ContactUs />
 
-			<div
-				className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-14  items-center  `}>
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center  `}>
 				<img
 					src={AusFooter}
 					alt='Demo'

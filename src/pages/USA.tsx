@@ -4,6 +4,7 @@ import Usdeco from '../assets/USdeco.png';
 import Uswoman from '../assets/USwoman.png';
 import Footer from '../components/Footer';
 import Person from '../assets/UsaFooter.jpg';
+import ContactUs from '../components/ContactUs';
 
 const USA = () => {
 	return (
@@ -116,8 +117,12 @@ const USA = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Assistantships for graduate students
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light '>Commonwealth Scholarships</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>Sports/athletic scholarships</p>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light '>
+					Commonwealth Scholarships
+				</p>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
+					Sports/athletic scholarships
+				</p>
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					School-specific international grants
 				</p>
@@ -193,7 +198,9 @@ const USA = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					SAT, TOEFL, and IELTS preparation
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>Commonwealth Scholarships</p>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
+					Commonwealth Scholarships
+				</p>
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Scholarship and financial aid guidance
 				</p>
@@ -203,12 +210,14 @@ const USA = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light '>
 					Pre-departure briefings and ongoing support
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light md:pb-24'>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light '>
 					We make your path smoother, smarter, and more successful. Let{"'"}s help you
 					study in the USA — from Nigeria to the world stage.
 				</p>
 			</div>
-			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-14  items-center `}>
+
+			<ContactUs />
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-20  items-center `}>
 				<img
 					src={Person}
 					alt='Demo'

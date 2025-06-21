@@ -6,6 +6,7 @@ import GermanyQuestion from '../assets/GermanyQuestion.png';
 import GermanyFooter from '../assets/GermanyFooter.jpg';
 import GermanyWoman from '../assets/GermanyWoman.png';
 import Footer from '../components/Footer';
+import ContactUs from '../components/ContactUs';
 
 const Germany = () => {
 	return (
@@ -221,13 +222,13 @@ const Germany = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Provide support from university selection to pre-departure
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose mb-5 font-light md:pb-24'>
+				<p className='text-sm/loose mt-5 md:text-xl/loose mb-5 font-light'>
 					We are your trusted partner—ensuring your study-abroad journey to Germany is
 					stress-free and full of possibility.
 				</p>
 			</div>
-			<div
-				className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center `}>
+			<ContactUs />
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center `}>
 				<img
 					src={GermanyFooter}
 					alt='Demo'

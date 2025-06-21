@@ -5,6 +5,7 @@ import { GoDotFill } from 'react-icons/go';
 import WorldMap from '../assets/WorldMap.jpg';
 import Footer from '../components/Footer';
 import TofelFooter from '../assets/TOFLEfooter.jpg';
+import ContactUs from '../components/ContactUs';
 
 const TOELFExams = () => {
 	return (
@@ -118,7 +119,7 @@ const TOELFExams = () => {
 				<p className='text-lg/loose mt-5 md:text-2xl/loose font-light'>Port Harcourt</p>
 			</div>
 
-			<div className={` relative w-full  md:px-20  mt-16 md:mt-24 items-center md:pb-24`}>
+			<div className={` relative w-full  md:px-20  mt-16 md:mt-24 items-center`}>
 				<img
 					src={WorldMap}
 					alt='Demo'
@@ -126,7 +127,9 @@ const TOELFExams = () => {
 				/>
 			</div>
 
-			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-14  items-center `}>
+			<ContactUs />
+
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-20  items-center `}>
 				<img
 					src={TofelFooter}
 					alt='TofelFooter'

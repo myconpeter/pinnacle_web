@@ -4,6 +4,7 @@ import UkWoman from '../assets/UkWoman.png';
 import UkLove from '../assets/UkLove.png';
 import Footer from '../components/Footer';
 import Person from '../assets/UKfooter.jpg';
+import ContactUs from '../components/ContactUs';
 
 const UnitedKingdom = () => {
 	return (
@@ -122,8 +123,12 @@ const UnitedKingdom = () => {
 					Reduce the cost of your education through prestigious scholarship programs such
 					as:
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>Chevying Scholarships</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>Commonwealth Scholarships</p>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
+					Chevying Scholarships
+				</p>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
+					Commonwealth Scholarships
+				</p>
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>GREAT Scholarships</p>
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					University-specific scholarships for international students
@@ -181,7 +186,9 @@ const UnitedKingdom = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					SAT, TOEFL, and IELTS preparation
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>Commonwealth Scholarships</p>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
+					Commonwealth Scholarships
+				</p>
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Scholarship and financial aid guidance
 				</p>
@@ -191,12 +198,13 @@ const UnitedKingdom = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light '>
 					Pre-departure briefings and ongoing support
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light md:mb-48'>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light md:mb-10'>
 					We make your path smoother, smarter, and more successful. Let{"'"}s help you
 					study in the USA — from Nigeria to the world stage.
 				</p>
 			</div>
-			<div className={` absolute z-20 top w-full md:px-24 md:-mt-44  items-center `}>
+			<ContactUs />
+			<div className={` absolute z-20 top w-full md:px-24 md:-mt-20  items-center `}>
 				<img
 					src={Person}
 					alt='Demo'

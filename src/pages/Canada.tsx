@@ -5,6 +5,7 @@ import CanadaBoy from '../assets/CanadaBoy.png';
 import CanadaApproved from '../assets/CanadaApproved.png';
 import Footer from '../components/Footer';
 import Person from '../assets/CanadaFooter.jpg';
+import ContactUs from '../components/ContactUs';
 
 const Canada = () => {
 	return (
@@ -192,13 +193,14 @@ const Canada = () => {
 					scholarships, and acing your IELTS—we offer full-service guidance from
 					application to arrival.
 				</p>
-				<p className='text-sm/loose mt-5 md:text-xl/loose font-light md:pb-24'>
+				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Let Canada be your next academic adventure. Your future doesn{"'"}t just belong
 					in a classroom—it belongs in a country that invites you to stay and succeed.
 				</p>
 			</div>
+			<ContactUs />
 
-			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-14  items-center `}>
+			<div className={` absolute z-20 top w-full md:px-24  mt-8 md:-mt-20  items-center `}>
 				<img
 					src={Person}
 					alt='Demo'

@@ -6,7 +6,7 @@ import SwizFooter from '../assets/SwizFooter.jpg';
 import SwizMap from '../assets/SwizMap.png';
 import SwizWorld from '../assets/SwizWorld.png';
 import Footer from '../components/Footer';
-
+import ContactUs from '../components/ContactUs';
 
 const Swiz = () => {
 	return (
@@ -131,9 +131,15 @@ const Swiz = () => {
 							Switzerland ranks consistently high in:{' '}
 						</p>
 						<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>Safety </p>
-						<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>Cleanliness </p>
-						<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>Healthcare </p>
-						<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>Stability </p>
+						<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>
+							Cleanliness{' '}
+						</p>
+						<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>
+							Healthcare{' '}
+						</p>
+						<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>
+							Stability{' '}
+						</p>
 					</div>
 
 					<div className='md:w-3/6'>
@@ -183,7 +189,7 @@ const Swiz = () => {
 				</div>
 			</div>
 
-			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center md:pb-24'>
+			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
 				<p className='text-lg md:text-2xl text-horseBlood font-medium'>
 					At Pinnacle Education and Training Limited, Uyo.
 				</p>
@@ -195,8 +201,8 @@ const Swiz = () => {
 					make it.
 				</p>
 			</div>
-            <div
-				className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-14  items-center `}>
+			<ContactUs />
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center `}>
 				<img
 					src={SwizFooter}
 					alt='Demo'

@@ -3,6 +3,7 @@ import SpainBoy from '../assets/SpainBoy.png';
 import SpainFooter from '../assets/SpainFooter.jpg';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import ContactUs from '../components/ContactUs';
 
 const Spain = () => {
 	return (
@@ -53,11 +54,15 @@ const Spain = () => {
 				<p className='text-sm/loose mt-5 md:text-xl/loose font-light'>
 					Spain boasts some of Europe’s oldest and most respected universities, including:
 				</p>
-				<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>University of Barcelona</p>
+				<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>
+					University of Barcelona
+				</p>
 				<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>
 					Complutense University of Madrid
 				</p>
-				<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>University of Salamanca</p>
+				<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>
+					University of Salamanca
+				</p>
 				<p className='md:text-2xl/loose text-sm/loose mt-1 font-light'>
 					{' '}
 					Tuition fees are low and government-subsidized, ranging from €1,000 to €3,500
@@ -143,7 +148,7 @@ const Spain = () => {
 					memories, friendships, and international exposure.
 				</p>
 			</div>
-			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center md:pb-28'>
+			<div className='relative w-full px-3 md:px-20 mt-10  md:mt-24 items-center'>
 				<p className='text-lg md:text-2xl text-horseBlood font-medium'>
 					At Pinnacle Education and Training Limited, Uyo
 				</p>
@@ -161,7 +166,9 @@ const Spain = () => {
 				</p>
 			</div>
 
-			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-18  items-center `}>
+			<ContactUs />
+
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center `}>
 				<img
 					src={SpainFooter}
 					alt='Demo'

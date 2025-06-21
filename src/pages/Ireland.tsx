@@ -5,6 +5,7 @@ import IrelandPeople from '../assets/IrelandPeople.png';
 import Footer from '../components/Footer';
 import Person from '../assets/IreLandFooter.jpg';
 import NavBar from '../components/NavBar';
+import ContactUs from '../components/ContactUs';
 const Ireland = () => {
 	return (
 		<div>
@@ -196,13 +197,13 @@ const Ireland = () => {
 						</p>
 					</div>
 				</div>
-				<p className='text-sm/loose md:text-2xl/loose  font-light px-3 md:pb-24'>
+				<p className='text-sm/loose md:text-2xl/loose  font-light px-3'>
 					We walk with you every step of the way—so you can focus on what truly matters:
 					your future.
 				</p>
 			</div>
-			<div
-				className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-14  items-center `}>
+			<ContactUs />
+			<div className={` absolute z-20 top w-full md:px-24 mt-10   md:-mt-20  items-center `}>
 				<img
 					src={Person}
 					alt='Demo'
