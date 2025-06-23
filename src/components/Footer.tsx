@@ -51,8 +51,8 @@ const Footer = () => {
 
 					<div className='mt-10 md:w-[50%]'>
 						<p className='font-medium text-sm'>
-							Pinnacle Education Training Ltd is a leading provider of professional
-							training and development programs. Learn. Grow. Succeed.
+							Pinnacle Education Training Ltd is a leading educational and consultancy
+							agency in Nigeria. Study globally with our guide
 						</p>
 						<div className='mt-6'>
 							<p className='font-light text-sm'>Connect with Us</p>
@@ -61,8 +61,7 @@ const Footer = () => {
 									href='https://www.instagram.com/pinnacle_educationuyo?igsh=NDU0b3h2N3V4MHl2'
 									target='_blank'
 									rel='noopener noreferrer'>
-										<FaInstagramSquare className="text-[#C13584] text-xl cursor-pointer" />
-
+									<FaInstagramSquare className='text-[#C13584] text-xl cursor-pointer' />
 								</a>
 
 								<a

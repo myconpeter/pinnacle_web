@@ -81,11 +81,11 @@ const BasicRequirement = () => {
 
 				<div className='mt-5 md:mt-18'>
 					<p className='md:text-2xl'>
-						<Link
-							to='/'
+						<a
+							href='mailto:pinnacleeducationuyo@gmail.com'
 							className='text-lighterBlue'>
 							Reach out
-						</Link>{' '}
+						</a>{' '}
 						to us for the breakdown of fees apply.
 					</p>
 				</div>
