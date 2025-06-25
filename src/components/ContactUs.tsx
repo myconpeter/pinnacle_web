@@ -38,7 +38,7 @@ const ContactUs = () => {
 					target='_blank'
 					rel='noopener noreferrer'
 					className='text-black md:text-xl'>
-					08029837117
+					07088009511
 				</a>
 			</div>
 		</div>
