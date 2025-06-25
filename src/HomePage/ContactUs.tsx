@@ -70,9 +70,9 @@ const ContactUs = () => {
 					<p>
 						Whatsapp:{' '}
 						<a
-							href='https://wa.me/2348029837117?text=Hello%20Pinnacle%20Education%20and%20Training%20Limited.%2C%20I%20am%20interested%20in '
+							href='https://wa.me/2347088009511?text=Hello%20Pinnacle%20Education%20and%20Training%20Limited.%2C%20I%20am%20interested%20in '
 							className='text-blue-500 underline'>
-							08029837117
+							07088009511
 						</a>
 					</p>
 				</motion.div>
