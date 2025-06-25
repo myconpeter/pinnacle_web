@@ -34,7 +34,7 @@ const ContactUs = () => {
 			<div className='flex mt-2 md:mt-5 items-center gap-2'>
 				<IoLogoWhatsapp className='text-green-600 text-xl' />
 				<a
-					href='https://wa.me/2348029837117?text=Hello%20Pinnacle%20Education%20and%20Training%20Limited%2C%20I%20am%20interested%20in '
+					href='https://wa.me/2347088009511?text=Hello%20Pinnacle%20Education%20and%20Training%20Limited%2C%20I%20am%20interested%20in '
 					target='_blank'
 					rel='noopener noreferrer'
 					className='text-black md:text-xl'>
